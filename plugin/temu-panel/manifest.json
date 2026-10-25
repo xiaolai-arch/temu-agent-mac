@@ -1,0 +1,10 @@
+{
+  "name": "temu-panel",
+  "displayName": "TEMU 工作台",
+  "version": "0.1.0",
+  "description": "TEMU 卖家自动化任务面板：ego-browser 驱动（同步体检/切店/采集/调价兜底，写操作优先 LinkFox API）",
+  "entry": "web/entry.js",
+  "slot": "tab",
+  "type": "module",
+  "server": "server.mjs"
+}

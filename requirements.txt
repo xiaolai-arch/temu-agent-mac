@@ -1,0 +1,9 @@
+# Mac 自动化层（ego/）：经 ego-browser CLI 驱动，无 pip 依赖
+#   旧 Windows 驱动层 driver/（pywinauto/comtypes/mcp）已废弃，保留作参考
+
+# 调研分析（research/，跨平台）
+openpyxl
+requests
+
+# 截图裁剪/视觉核对（scripts/crop_zoom.py、ego 调试）
+pillow

@@ -1,0 +1,43 @@
+#!/bin/zsh
+# run — 统一任务启动器：task = modules/<module>/<task>.mjs
+# 用法: run <task> [args...]     例: run sync-check main / run grind-one <SKC>
+# args 经临时入口文件内联注入（ego 运行时不继承 shell 环境变量与 cwd，
+# 见 discoveries/2026-10-24-ego-browser-验证.md）。
+set -euo pipefail
+
+ROOT="$(cd -- "$(dirname -- "$0")" && pwd)"
+TASK="${1:-}"
+[[ $# -gt 0 ]] && shift
+
+if [[ ! "${TASK}" =~ ^[a-z0-9][a-z0-9-]*$ ]]; then
+  echo "用法: run <task> [args...]   （task = modules/*/<task>.mjs，可用任务：）" >&2
+  for f in "${ROOT}"/modules/*/*.mjs(N); do
+    echo "  - $(basename "${f}" .mjs)  （modules/${f:h:t}/）" >&2
+  done
+  exit 64
+fi
+
+MATCHES=("${ROOT}"/modules/*/"${TASK}".mjs(N))
+if (( ${#MATCHES[@]} == 0 )); then
+  echo "未知任务: ${TASK}（可用任务：）" >&2
+  for f in "${ROOT}"/modules/*/*.mjs(N); do
+    echo "  - $(basename "${f}" .mjs)  （modules/${f:h:t}/）" >&2
+  done
+  exit 64
+fi
+if (( ${#MATCHES[@]} > 1 )); then
+  echo "任务名不唯一（${#MATCHES[@]} 个模块同名）：${MATCHES}" >&2
+  exit 64
+fi
+SCRIPT="${MATCHES[1]}"
+
+ARGS_JSON="$(python3 -c 'import json,sys; print(json.dumps(sys.argv[1:]))' "$@")"
+# 不用 mktemp：macOS BSD 版对「X 不在末尾」的模板行为不可靠（曾生成字面名文件卡死后续调用）
+ENTRY="/tmp/temu-ego-entry-$$-${RANDOM}-${RANDOM}.mjs"
+trap 'rm -f "${ENTRY}"' EXIT
+{
+  echo "globalThis.TEMU_ARGS = ${ARGS_JSON};"
+  echo "await import(\"file://${SCRIPT}\");"
+} > "${ENTRY}"
+
+ego-browser nodejs -e "await import('file://${ENTRY}')"

@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "source_file": "temu-agent research/scan (Temu 搜索卡 OCR)",
+    "platform": "Temu",
+    "market": "US",
+    "category": "custom napkins",
+    "sold_semantics": "平台展示口径(累计), 非月销",
+    "scan_date": "2026-10 (近期采集)"
+  },
+  "market_capacity": {
+    "item_count": 17,
+    "total_monthly_sales": 3286,
+    "total_monthly_revenue": 72993.07,
+    "avg_price": 19.45,
+    "median_price": 14.69,
+    "price_min": 1.09,
+    "price_max": 55.82,
+    "avg_monthly_sales_per_item": 193.3,
+    "implied_avg_price": 22.21,
+    "rev_share_top10": 1.0
+  },
+  "brand_concentration": {
+    "subject_count": 2,
+    "cr10": 1.0,
+    "cr10_by_sales": 1.0,
+    "cr3": 1.0,
+    "hhi": 8493.6,
+    "cr_note": "主体数（2）≤ n（10），CR10 恒为 100%，无参考意义。请改用 CR3（100.0%）与 HHI（8493.6）判断集中度。",
+    "top_list": [
+      {
+        "rank": 1,
+        "name": "白牌",
+        "revenue": 67003.87,
+        "revenue_share": 0.9179,
+        "sales": 2779,
+        "sales_share": 0.8457,
+        "item_count": 11,
+        "item_share": 0.6471
+      },
+      {
+        "rank": 2,
+        "name": "Choice",
+        "revenue": 5989.2,
+        "revenue_share": 0.0821,
+        "sales": 507,
+        "sales_share": 0.1543,
+        "item_count": 6,
+        "item_share": 0.3529
+      }
+    ]
+  },
+  "seller_concentration": {
+    "subject_count": 1,
+    "cr10": 1.0,
+    "cr10_by_sales": 1.0,
+    "cr3": 1.0,
+    "hhi": 10000.0,
+    "cr_note": "主体数（1）≤ n（10），CR10 恒为 100%，无参考意义。请改用 CR3（100.0%）与 HHI（10000.0）判断集中度。",
+    "top_list": [
+      {
+        "rank": 1,
+        "name": "unknown",
+        "revenue": 72993.07,
+        "revenue_share": 1.0,
+        "sales": 3286,
+        "sales_share": 1.0,
+        "item_count": 17,
+        "item_share": 1.0
+      }
+    ]
+  },
+  "price_bands": {
+    "price_range": [
+      1.09,
+      55.82
+    ],
+    "bin_width": 6.84,
+    "bins": [
+      {
+        "index": 1,
+        "price_lo": 1.09,
+        "price_hi": 7.93,
+        "item_count": 2,
+        "total_sales": 277,
+        "total_revenue": 1231.13,
+        "avg_sales_per_item": 138.5
+      },
+      {
+        "index": 2,
+        "price_lo": 7.93,
+        "price_hi": 14.77,
+        "item_count": 7,
+        "total_sales": 1026,
+        "total_revenue": 11793.44,
+        "avg_sales_per_item": 146.6
+      },
+      {
+        "index": 3,
+        "price_lo": 14.77,
+        "price_hi": 21.61,
+        "item_count": 2,
+        "total_sales": 723,
+        "total_revenue": 11587.25,
+        "avg_sales_per_item": 361.5
+      },
+      {
+        "index": 4,
+        "price_lo": 21.61,
+        "price_hi": 28.45,
+        "item_count": 3,
+        "total_sales": 168,
+        "total_revenue": 3937.81,
+        "avg_sales_per_item": 56.0
+      },
+      {
+        "index": 5,
+        "price_lo": 28.45,
+        "price_hi": 35.3,
+        "item_count": 0,
+        "total_sales": 0,
+        "total_revenue": 0,
+        "avg_sales_per_item": 0.0
+      },
+      {
+        "index": 6,
+        "price_lo": 35.3,
+        "price_hi": 42.14,
+        "item_count": 2,
+        "total_sales": 1050,
+        "total_revenue": 42099.0,
+        "avg_sales_per_item": 525.0
+      },
+      {
+        "index": 7,
+        "price_lo": 42.14,
+        "price_hi": 48.98,
+        "item_count": 0,
+        "total_sales": 0,
+        "total_revenue": 0,
+        "avg_sales_per_item": 0.0
+      },
+      {
+        "index": 8,
+        "price_lo": 48.98,
+        "price_hi": 55.82,
+        "item_count": 1,
+        "total_sales": 42,
+        "total_revenue": 2344.44,
+        "avg_sales_per_item": 42.0
+      }
+    ],
+    "valleys": [
+      {
+        "bin_index": 5,
+        "price": 35.3,
+        "drop": 1.0
+      },
+      {
+        "bin_index": 7,
+        "price": 48.98,
+        "drop": 1.0
+      }
+    ],
+    "noise_valleys": 0,
+    "trimmed_valleys": [],
+    "valley_min_drop": 0.15,
+    "suggested_bands": [
+      {
+        "band_index": 1,
+        "price_from": 1.09,
+        "price_to": 35.3,
+        "item_count": 14,
+        "total_sales": 2194,
+        "total_revenue": 28549.63,
+        "avg_sales_per_item": 156.7
+      },
+      {
+        "band_index": 2,
+        "price_from": 35.3,
+        "price_to": 48.98,
+        "item_count": 2,
+        "total_sales": 1050,
+        "total_revenue": 42099.0,
+        "avg_sales_per_item": 525.0
+      },
+      {
+        "band_index": 3,
+        "price_from": 48.98,
+        "price_to": 55.82,
+        "item_count": 1,
+        "total_sales": 42,
+        "total_revenue": 2344.44,
+        "avg_sales_per_item": 42.0
+      }
+    ],
+    "max_bands": 5
+  },
+  "config_matrix": {
+    "ply": {
+      "value_count": 1,
+      "unparsed_items": 13,
+      "avg_sales_all_values": 92.2,
+      "equal_share_reference": 1.0,
+      "rows": [
+        {
+          "value": "3-ply",
+          "item_count": 4,
+          "item_share": 0.2353,
+          "total_sales": 369,
+          "sales_share": 1.0,
+          "avg_sales": 92.2,
+          "judgement": [
+            "总销量高→需求大",
+            "市场大但竞争激烈"
+          ]
+        }
+      ]
+    },
+    "pack": {
+      "value_count": 1,
+      "unparsed_items": 16,
+      "avg_sales_all_values": 223.0,
+      "equal_share_reference": 1.0,
+      "rows": [
+        {
+          "value": "50pcs",
+          "item_count": 1,
+          "item_share": 0.0588,
+          "total_sales": 223,
+          "sales_share": 1.0,
+          "avg_sales": 223.0,
+          "judgement": [
+            "总销量高→需求大"
+          ]
+        }
+      ]
+    },
+    "material": {
+      "value_count": 1,
+      "unparsed_items": 0,
+      "avg_sales_all_values": 193.3,
+      "equal_share_reference": 1.0,
+      "rows": [
+        {
+          "value": "paper",
+          "item_count": 17,
+          "item_share": 1.0,
+          "total_sales": 3286,
+          "sales_share": 1.0,
+          "avg_sales": 193.3,
+          "judgement": [
+            "总销量高→需求大"
+          ]
+        }
+      ]
+    },
+    "cocktail": {
+      "error": "该维度未解析出任何值。请把配置写在单独列里，或用 --mapping 指定。",
+      "unparsed": 17
+    },
+    "brand": {
+      "value_count": 2,
+      "unparsed_items": 0,
+      "avg_sales_all_values": 193.3,
+      "equal_share_reference": 0.5,
+      "rows": [
+        {
+          "value": "白牌",
+          "item_count": 11,
+          "item_share": 0.6471,
+          "total_sales": 2779,
+          "sales_share": 0.8457,
+          "avg_sales": 252.6,
+          "judgement": [
+            "总销量高→需求大",
+            "单品效率高"
+          ]
+        },
+        {
+          "value": "Choice",
+          "item_count": 6,
+          "item_share": 0.3529,
+          "total_sales": 507,
+          "sales_share": 0.1543,
+          "avg_sales": 84.5,
+          "judgement": [
+            "常规"
+          ]
+        }
+      ]
+    }
+  }
+}

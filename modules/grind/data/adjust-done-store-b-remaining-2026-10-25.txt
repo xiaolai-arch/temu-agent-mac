@@ -1,0 +1,755 @@
+25397374004	3	0行可调	 | ego's nodejs process exited with code 3.
+48845621917	3	0行可调	 | ego's nodejs process exited with code 3.
+71074209047	3	0行可调	 | ego's nodejs process exited with code 3.
+74336718711	3	0行可调	 | ego's nodejs process exited with code 3.
+79870646128	3	0行可调	 | ego's nodejs process exited with code 3.
+51821816733	3	0行可调	 | ego's nodejs process exited with code 3.
+55374213593	3	0行可调	 | ego's nodejs process exited with code 3.
+21669926862	3	0行可调	 | ego's nodejs process exited with code 3.
+32524333209	3	0行可调	 | ego's nodejs process exited with code 3.
+73835722337	3	0行可调	 | ego's nodejs process exited with code 3.
+43559507995	3	0行可调	 | ego's nodejs process exited with code 3.
+55804135197	3	0行可调	 | ego's nodejs process exited with code 3.
+93213784548	3	0行可调	 | ego's nodejs process exited with code 3.
+91779590925	3	0行可调	 | ego's nodejs process exited with code 3.
+54091798360	3	0行可调	 | ego's nodejs process exited with code 3.
+38881976964	3	0行可调	 | ego's nodejs process exited with code 3.
+87697548227	3	0行可调	 | ego's nodejs process exited with code 3.
+23326795402	3	0行可调	 | ego's nodejs process exited with code 3.
+21675364314	3	0行可调	 | ego's nodejs process exited with code 3.
+10361526121	3	0行可调	 | ego's nodejs process exited with code 3.
+11537980634	3	0行可调	 | ego's nodejs process exited with code 3.
+18903822471	3	0行可调	 | ego's nodejs process exited with code 3.
+93942215572	3	0行可调	 | ego's nodejs process exited with code 3.
+89985789541	3	0行可调	 | ego's nodejs process exited with code 3.
+58073880803	3	0行可调	 | ego's nodejs process exited with code 3.
+97459086027	3	0行可调	 | ego's nodejs process exited with code 3.
+77106553235	3	0行可调	 | ego's nodejs process exited with code 3.
+78451204402	3	0行可调	 | ego's nodejs process exited with code 3.
+19712388705	3	0行可调	 | ego's nodejs process exited with code 3.
+72453977038	3	0行可调	 | ego's nodejs process exited with code 3.
+54323142541	3	0行可调	 | ego's nodejs process exited with code 3.
+74555112000	3	0行可调	 | ego's nodejs process exited with code 3.
+26004777410	3	0行可调	 | ego's nodejs process exited with code 3.
+28988345622	3	0行可调	 | ego's nodejs process exited with code 3.
+65594351246	3	0行可调	 | ego's nodejs process exited with code 3.
+83014634670	3	0行可调	 | ego's nodejs process exited with code 3.
+92229891522	3	0行可调	 | ego's nodejs process exited with code 3.
+40500330392	3	0行可调	 | ego's nodejs process exited with code 3.
+29919711422	3	0行可调	 | ego's nodejs process exited with code 3.
+28696583617	3	0行可调	 | ego's nodejs process exited with code 3.
+86544263415	3	0行可调	 | ego's nodejs process exited with code 3.
+82934305537	3	0行可调	 | ego's nodejs process exited with code 3.
+16597547385	3	0行可调	 | ego's nodejs process exited with code 3.
+49075718826	3	0行可调	 | ego's nodejs process exited with code 3.
+60882418885	2	未找到目标	 | ego's nodejs process exited with code 2.
+86989140969	3	0行可调	 | ego's nodejs process exited with code 3.
+11255396630	3	0行可调	 | ego's nodejs process exited with code 3.
+14713191676	3	0行可调	 | ego's nodejs process exited with code 3.
+60997713872	3	0行可调	 | ego's nodejs process exited with code 3.
+15268206766	3	0行可调	 | ego's nodejs process exited with code 3.
+60882418885	3	0行可调	 | ego's nodejs process exited with code 3.
+44312433385	3	0行可调	 | ego's nodejs process exited with code 3.
+62578719017	3	0行可调	 | ego's nodejs process exited with code 3.
+69807070007	3	0行可调	 | ego's nodejs process exited with code 3.
+74361771108	1	rc=1	 | ego's nodejs process exited with code 1.
+42898410493	1	rc=1	 | ego's nodejs process exited with code 1.
+39945380491	3	0行可调	 | ego's nodejs process exited with code 3.
+86139563657	3	0行可调	 | ego's nodejs process exited with code 3.
+69953610371	3	0行可调	 | ego's nodejs process exited with code 3.
+66343583336	3	0行可调	 | ego's nodejs process exited with code 3.
+50562090238	3	0行可调	 | ego's nodejs process exited with code 3.
+74948885663	3	0行可调	 | ego's nodejs process exited with code 3.
+73042675316	3	0行可调	 | ego's nodejs process exited with code 3.
+88207058996	3	0行可调	 | ego's nodejs process exited with code 3.
+23280851359	1	rc=1	 | ego's nodejs process exited with code 1.
+65909395710	1	rc=1	 | ego's nodejs process exited with code 1.
+41916222167	3	0行可调	 | ego's nodejs process exited with code 3.
+89047184773	1	rc=1	 | ego's nodejs process exited with code 1.
+70253090025	3	0行可调	 | ego's nodejs process exited with code 3.
+91703153061	3	0行可调	 | ego's nodejs process exited with code 3.
+30894539399	3	0行可调	 | ego's nodejs process exited with code 3.
+63120339754	3	0行可调	 | ego's nodejs process exited with code 3.
+38296849165	3	0行可调	 | ego's nodejs process exited with code 3.
+88251834023	3	0行可调	 | ego's nodejs process exited with code 3.
+66823042875	3	0行可调	 | ego's nodejs process exited with code 3.
+91938514063	3	0行可调	 | ego's nodejs process exited with code 3.
+78506914634	3	0行可调	 | ego's nodejs process exited with code 3.
+53564963625	3	0行可调	 | ego's nodejs process exited with code 3.
+45050230226	3	0行可调	 | ego's nodejs process exited with code 3.
+82460843537	3	0行可调	 | ego's nodejs process exited with code 3.
+28385615100	3	0行可调	 | ego's nodejs process exited with code 3.
+70805758234	3	0行可调	 | ego's nodejs process exited with code 3.
+62745667442	3	0行可调	 | ego's nodejs process exited with code 3.
+20052147691	3	0行可调	 | ego's nodejs process exited with code 3.
+41324058236	3	0行可调	 | ego's nodejs process exited with code 3.
+95153676801	3	0行可调	 | ego's nodejs process exited with code 3.
+41680282306	3	0行可调	 | ego's nodejs process exited with code 3.
+12092868229	3	0行可调	 | ego's nodejs process exited with code 3.
+36085950219	3	0行可调	 | ego's nodejs process exited with code 3.
+27705245482	3	0行可调	 | ego's nodejs process exited with code 3.
+84131036605	1	rc=1	 | ego's nodejs process exited with code 1.
+76695696437	3	0行可调	 | ego's nodejs process exited with code 3.
+37213872064	3	0行可调	 | ego's nodejs process exited with code 3.
+70129831878	3	0行可调	 | ego's nodejs process exited with code 3.
+17827025776	3	0行可调	 | ego's nodejs process exited with code 3.
+43139984810	3	0行可调	 | ego's nodejs process exited with code 3.
+42343973333	3	0行可调	 | ego's nodejs process exited with code 3.
+88557244405	3	0行可调	 | ego's nodejs process exited with code 3.
+67085768435	3	0行可调	 | ego's nodejs process exited with code 3.
+89345765798	3	0行可调	 | ego's nodejs process exited with code 3.
+74361771108	3	0行可调	 | ego's nodejs process exited with code 3.
+42898410493	3	0行可调	 | ego's nodejs process exited with code 3.
+23280851359	3	0行可调	 | ego's nodejs process exited with code 3.
+65909395710	3	0行可调	 | ego's nodejs process exited with code 3.
+89047184773	3	0行可调	 | ego's nodejs process exited with code 3.
+84131036605	3	0行可调	 | ego's nodejs process exited with code 3.
+46272867498	3	0行可调	 | ego's nodejs process exited with code 3.
+84209135318	3	0行可调	 | ego's nodejs process exited with code 3.
+32461151630	3	0行可调	 | ego's nodejs process exited with code 3.
+14196235327	1	rc=1	 | ego's nodejs process exited with code 1.
+55637067665	1	rc=1	 | ego's nodejs process exited with code 1.
+84961082219	3	0行可调	 | ego's nodejs process exited with code 3.
+98397289763	3	0行可调	 | ego's nodejs process exited with code 3.
+33526656512	3	0行可调	 | ego's nodejs process exited with code 3.
+50102382427	3	0行可调	 | ego's nodejs process exited with code 3.
+67725691937	3	0行可调	 | ego's nodejs process exited with code 3.
+47461297151	3	0行可调	 | ego's nodejs process exited with code 3.
+57874118811	3	0行可调	 | ego's nodejs process exited with code 3.
+14607418631	1	rc=1	 | ego's nodejs process exited with code 1.
+70016869475	3	0行可调	 | ego's nodejs process exited with code 3.
+96798633680	1	rc=1	 | ego's nodejs process exited with code 1.
+21227954133	3	0行可调	 | ego's nodejs process exited with code 3.
+83263861340	1	rc=1	 | ego's nodejs process exited with code 1.
+74711256797	3	0行可调	 | ego's nodejs process exited with code 3.
+75646895905	3	0行可调	 | ego's nodejs process exited with code 3.
+27978099743	3	0行可调	 | ego's nodejs process exited with code 3.
+24186243620	3	0行可调	 | ego's nodejs process exited with code 3.
+69660202237	3	0行可调	 | ego's nodejs process exited with code 3.
+19933787813	3	0行可调	 | ego's nodejs process exited with code 3.
+38536178066	3	0行可调	 | ego's nodejs process exited with code 3.
+81809405229	3	0行可调	 | ego's nodejs process exited with code 3.
+54365086629	3	0行可调	 | ego's nodejs process exited with code 3.
+41500108760	3	0行可调	 | ego's nodejs process exited with code 3.
+16165051809	3	0行可调	 | ego's nodejs process exited with code 3.
+60595784502	3	0行可调	 | ego's nodejs process exited with code 3.
+13619919678	3	0行可调	 | ego's nodejs process exited with code 3.
+32592883602	3	0行可调	 | ego's nodejs process exited with code 3.
+49100588590	3	0行可调	 | ego's nodejs process exited with code 3.
+48438100174	3	0行可调	 | ego's nodejs process exited with code 3.
+32043827561	3	0行可调	 | ego's nodejs process exited with code 3.
+88169762939	3	0行可调	 | ego's nodejs process exited with code 3.
+16321744080	1	rc=1	 | ego's nodejs process exited with code 1.
+74587202663	3	0行可调	 | ego's nodejs process exited with code 3.
+32072149613	3	0行可调	 | ego's nodejs process exited with code 3.
+85273189631	1	rc=1	 | ego's nodejs process exited with code 1.
+58103291162	3	0行可调	 | ego's nodejs process exited with code 3.
+83076708726	3	0行可调	 | ego's nodejs process exited with code 3.
+89757646975	3	0行可调	 | ego's nodejs process exited with code 3.
+48488683082	3	0行可调	 | ego's nodejs process exited with code 3.
+27137102775	3	0行可调	 | ego's nodejs process exited with code 3.
+14196235327	2	未找到目标	 | ego's nodejs process exited with code 2.
+55637067665	0	OK	[02:22:23] 结果：填 2 / 取消勾选 1 / 跳过 0 / 失败 0 | [02:22:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+14607418631	3	0行可调	 | ego's nodejs process exited with code 3.
+96798633680	3	0行可调	 | ego's nodejs process exited with code 3.
+83263861340	3	0行可调	 | ego's nodejs process exited with code 3.
+16321744080	3	0行可调	 | ego's nodejs process exited with code 3.
+85273189631	3	0行可调	 | ego's nodejs process exited with code 3.
+57133126662	3	0行可调	 | ego's nodejs process exited with code 3.
+42688961160	3	0行可调	 | ego's nodejs process exited with code 3.
+28119898405	3	0行可调	 | ego's nodejs process exited with code 3.
+93321288187	3	0行可调	 | ego's nodejs process exited with code 3.
+76108725417	3	0行可调	 | ego's nodejs process exited with code 3.
+14693582547	3	0行可调	 | ego's nodejs process exited with code 3.
+22407907766	3	0行可调	 | ego's nodejs process exited with code 3.
+97568548507	3	0行可调	 | ego's nodejs process exited with code 3.
+86784361303	3	0行可调	 | ego's nodejs process exited with code 3.
+46858873592	3	0行可调	 | ego's nodejs process exited with code 3.
+75228581888	3	0行可调	 | ego's nodejs process exited with code 3.
+78581080265	1	rc=1	 | ego's nodejs process exited with code 1.
+75301072769	2	未找到目标	 | ego's nodejs process exited with code 2.
+80473128167	3	0行可调	 | ego's nodejs process exited with code 3.
+13801662626	1	rc=1	 | ego's nodejs process exited with code 1.
+56469345041	3	0行可调	 | ego's nodejs process exited with code 3.
+87381787672	3	0行可调	 | ego's nodejs process exited with code 3.
+62124603151	3	0行可调	 | ego's nodejs process exited with code 3.
+33785404036	3	0行可调	 | ego's nodejs process exited with code 3.
+16644727155	3	0行可调	 | ego's nodejs process exited with code 3.
+62281854773	3	0行可调	 | ego's nodejs process exited with code 3.
+37504566494	3	0行可调	 | ego's nodejs process exited with code 3.
+75174708412	3	0行可调	 | ego's nodejs process exited with code 3.
+37884793501	1	rc=1	 | ego's nodejs process exited with code 1.
+74581303785	1	rc=1	 | ego's nodejs process exited with code 1.
+88946586672	1	rc=1	 | ego's nodejs process exited with code 1.
+60430101230	3	0行可调	 | ego's nodejs process exited with code 3.
+67750039688	3	0行可调	 | ego's nodejs process exited with code 3.
+12407749653	3	0行可调	 | ego's nodejs process exited with code 3.
+42895908329	3	0行可调	 | ego's nodejs process exited with code 3.
+97069410103	3	0行可调	 | ego's nodejs process exited with code 3.
+15982031566	3	0行可调	 | ego's nodejs process exited with code 3.
+53595907246	3	0行可调	 | ego's nodejs process exited with code 3.
+23437963437	3	0行可调	 | ego's nodejs process exited with code 3.
+19855697685	3	0行可调	 | ego's nodejs process exited with code 3.
+68101184649	3	0行可调	 | ego's nodejs process exited with code 3.
+46118379296	3	0行可调	 | ego's nodejs process exited with code 3.
+61546791776	3	0行可调	 | ego's nodejs process exited with code 3.
+76575667217	3	0行可调	 | ego's nodejs process exited with code 3.
+41388593482	3	0行可调	 | ego's nodejs process exited with code 3.
+69341342216	3	0行可调	 | ego's nodejs process exited with code 3.
+67118019805	1	rc=1	 | ego's nodejs process exited with code 1.
+78851291031	1	rc=1	 | ego's nodejs process exited with code 1.
+78581080265	3	0行可调	 | ego's nodejs process exited with code 3.
+75301072769	3	0行可调	 | ego's nodejs process exited with code 3.
+13801662626	3	0行可调	 | ego's nodejs process exited with code 3.
+37884793501	3	0行可调	 | ego's nodejs process exited with code 3.
+74581303785	3	0行可调	 | ego's nodejs process exited with code 3.
+88946586672	3	0行可调	 | ego's nodejs process exited with code 3.
+67118019805	3	0行可调	 | ego's nodejs process exited with code 3.
+78851291031	3	0行可调	 | ego's nodejs process exited with code 3.
+93908589766	3	0行可调	 | ego's nodejs process exited with code 3.
+62567380528	2	未找到目标	 | ego's nodejs process exited with code 2.
+63532577696	3	0行可调	 | ego's nodejs process exited with code 3.
+68301506421	3	0行可调	 | ego's nodejs process exited with code 3.
+26926362196	3	0行可调	 | ego's nodejs process exited with code 3.
+89960048166	3	0行可调	 | ego's nodejs process exited with code 3.
+47997526673	3	0行可调	 | ego's nodejs process exited with code 3.
+44322783010	3	0行可调	 | ego's nodejs process exited with code 3.
+99864511768	3	0行可调	 | ego's nodejs process exited with code 3.
+78228509702	3	0行可调	 | ego's nodejs process exited with code 3.
+19467846865	3	0行可调	 | ego's nodejs process exited with code 3.
+17061955768	3	0行可调	 | ego's nodejs process exited with code 3.
+26154193427	3	0行可调	 | ego's nodejs process exited with code 3.
+99625443416	3	0行可调	 | ego's nodejs process exited with code 3.
+16567874362	3	0行可调	 | ego's nodejs process exited with code 3.
+58636425012	3	0行可调	 | ego's nodejs process exited with code 3.
+54595228258	3	0行可调	 | ego's nodejs process exited with code 3.
+18093486310	3	0行可调	 | ego's nodejs process exited with code 3.
+80042108063	0	OK	[03:18:58] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [03:19:01] ✅ 弹窗关闭，调价已提交（待导出复核）
+27984048681	3	0行可调	 | ego's nodejs process exited with code 3.
+47473961628	3	0行可调	 | ego's nodejs process exited with code 3.
+22329563111	3	0行可调	 | ego's nodejs process exited with code 3.
+97473743913	3	0行可调	 | ego's nodejs process exited with code 3.
+29230641969	3	0行可调	 | ego's nodejs process exited with code 3.
+41824619418	3	0行可调	 | ego's nodejs process exited with code 3.
+59518202109	2	未找到目标	 | ego's nodejs process exited with code 2.
+18515448931	3	0行可调	 | ego's nodejs process exited with code 3.
+38078106988	3	0行可调	 | ego's nodejs process exited with code 3.
+14969699929	3	0行可调	 | ego's nodejs process exited with code 3.
+46510461364	3	0行可调	 | ego's nodejs process exited with code 3.
+38559177337	3	0行可调	 | ego's nodejs process exited with code 3.
+37112707209	3	0行可调	 | ego's nodejs process exited with code 3.
+87621837325	0	OK	[03:28:53] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [03:28:56] ✅ 弹窗关闭，调价已提交（待导出复核）
+42458280596	3	0行可调	 | ego's nodejs process exited with code 3.
+57982252608	3	0行可调	 | ego's nodejs process exited with code 3.
+25557338913	3	0行可调	 | ego's nodejs process exited with code 3.
+27572735110	3	0行可调	 | ego's nodejs process exited with code 3.
+23492074652	3	0行可调	 | ego's nodejs process exited with code 3.
+25599307613	3	0行可调	 | ego's nodejs process exited with code 3.
+47705307278	3	0行可调	 | ego's nodejs process exited with code 3.
+20188128339	3	0行可调	 | ego's nodejs process exited with code 3.
+64710392432	3	0行可调	 | ego's nodejs process exited with code 3.
+62567380528	3	0行可调	 | ego's nodejs process exited with code 3.
+59518202109	3	0行可调	 | ego's nodejs process exited with code 3.
+67010631164	1	rc=1	 | ego's nodejs process exited with code 1.
+12965844168	3	0行可调	 | ego's nodejs process exited with code 3.
+88051496485	3	0行可调	 | ego's nodejs process exited with code 3.
+17630782791	3	0行可调	 | ego's nodejs process exited with code 3.
+85164054147	3	0行可调	 | ego's nodejs process exited with code 3.
+53530009407	3	0行可调	 | ego's nodejs process exited with code 3.
+75809665203	3	0行可调	 | ego's nodejs process exited with code 3.
+60896753458	3	0行可调	 | ego's nodejs process exited with code 3.
+87373954827	0	OK	[03:43:01] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [03:43:04] ✅ 弹窗关闭，调价已提交（待导出复核）
+77456571625	3	0行可调	 | ego's nodejs process exited with code 3.
+16105478746	3	0行可调	 | ego's nodejs process exited with code 3.
+42234444165	3	0行可调	 | ego's nodejs process exited with code 3.
+50537595897	0	OK	[03:45:49] 结果：填 2 / 取消勾选 0 / 跳过 0 / 失败 0 | [03:45:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+14176480524	3	0行可调	 | ego's nodejs process exited with code 3.
+68856905349	3	0行可调	 | ego's nodejs process exited with code 3.
+64175775148	2	未找到目标	 | ego's nodejs process exited with code 2.
+91548929861	3	0行可调	 | ego's nodejs process exited with code 3.
+82895207722	1	rc=1	 | ego's nodejs process exited with code 1.
+52478305336	3	0行可调	 | ego's nodejs process exited with code 3.
+24950853810	3	0行可调	 | ego's nodejs process exited with code 3.
+61875124760	3	0行可调	 | ego's nodejs process exited with code 3.
+35660003661	1	rc=1	 | ego's nodejs process exited with code 1.
+65567568212	3	0行可调	 | ego's nodejs process exited with code 3.
+48646474757	3	0行可调	 | ego's nodejs process exited with code 3.
+73687908799	3	0行可调	 | ego's nodejs process exited with code 3.
+40621731097	3	0行可调	 | ego's nodejs process exited with code 3.
+88027105084	3	0行可调	 | ego's nodejs process exited with code 3.
+91044702116	3	0行可调	 | ego's nodejs process exited with code 3.
+38531390022	1	rc=1	 | ego's nodejs process exited with code 1.
+97207198375	3	0行可调	 | ego's nodejs process exited with code 3.
+14801133534	1	rc=1	 | ego's nodejs process exited with code 1.
+49068145225	2	未找到目标	 | ego's nodejs process exited with code 2.
+35858939860	3	0行可调	 | ego's nodejs process exited with code 3.
+32021369983	2	未找到目标	 | ego's nodejs process exited with code 2.
+26609243323	3	0行可调	 | ego's nodejs process exited with code 3.
+21465620272	3	0行可调	 | ego's nodejs process exited with code 3.
+95849335366	0	OK	[04:04:44] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:04:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+23785209540	0	OK	[04:05:25] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:05:28] ✅ 弹窗关闭，调价已提交（待导出复核）
+66448241758	3	0行可调	 | ego's nodejs process exited with code 3.
+83188153016	3	0行可调	 | ego's nodejs process exited with code 3.
+11883581555	0	OK	[04:07:31] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:07:34] ✅ 弹窗关闭，调价已提交（待导出复核）
+53472478587	3	0行可调	 | ego's nodejs process exited with code 3.
+94397166640	1	rc=1	 | ego's nodejs process exited with code 1.
+23746811763	3	0行可调	 | ego's nodejs process exited with code 3.
+86849156873	0	OK	[04:10:43] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:10:46] ✅ 弹窗关闭，调价已提交（待导出复核）
+12713465597	0	OK	[04:11:25] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:11:28] ✅ 弹窗关闭，调价已提交（待导出复核）
+44236257117	0	OK	[04:12:09] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:12:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+40190772643	0	OK	[04:12:52] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:12:55] ✅ 弹窗关闭，调价已提交（待导出复核）
+67010631164	1	rc=1	 | ego's nodejs process exited with code 1.
+64175775148	0	OK	[04:14:41] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:14:44] ✅ 弹窗关闭，调价已提交（待导出复核）
+82895207722	3	0行可调	 | ego's nodejs process exited with code 3.
+35660003661	3	0行可调	 | ego's nodejs process exited with code 3.
+38531390022	3	0行可调	 | ego's nodejs process exited with code 3.
+14801133534	0	OK	[04:17:22] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:17:24] ✅ 弹窗关闭，调价已提交（待导出复核）
+49068145225	3	0行可调	 | ego's nodejs process exited with code 3.
+32021369983	3	0行可调	 | ego's nodejs process exited with code 3.
+94397166640	3	0行可调	 | ego's nodejs process exited with code 3.
+48257719330	0	OK	[04:20:21] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:20:24] ✅ 弹窗关闭，调价已提交（待导出复核）
+53640286424	0	OK	[04:21:23] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:21:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+71618869743	0	OK	[04:22:07] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:22:09] ✅ 弹窗关闭，调价已提交（待导出复核）
+78131865178	0	OK	[04:22:48] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:22:51] ✅ 弹窗关闭，调价已提交（待导出复核）
+28452876784	0	OK	[04:23:30] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:23:33] ✅ 弹窗关闭，调价已提交（待导出复核）
+12263450906	0	OK	[04:24:12] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:24:15] ✅ 弹窗关闭，调价已提交（待导出复核）
+61122072314	0	OK	[04:24:53] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:24:56] ✅ 弹窗关闭，调价已提交（待导出复核）
+55650950920	0	OK	[04:25:35] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:25:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+59651082506	0	OK	[04:26:47] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:26:50] ✅ 弹窗关闭，调价已提交（待导出复核）
+71367937533	0	OK	[04:27:31] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:27:34] ✅ 弹窗关闭，调价已提交（待导出复核）
+82456951769	0	OK	[04:28:15] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:28:18] ✅ 弹窗关闭，调价已提交（待导出复核）
+66148567914	0	OK	[04:28:58] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:29:01] ✅ 弹窗关闭，调价已提交（待导出复核）
+23422585255	0	OK	[04:29:42] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:29:44] ✅ 弹窗关闭，调价已提交（待导出复核）
+32373666681	0	OK	[04:30:56] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:30:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+95381855572	1	rc=1	 | ego's nodejs process exited with code 1.
+30289636556	0	OK	[04:32:41] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:32:44] ✅ 弹窗关闭，调价已提交（待导出复核）
+11070141866	0	OK	[04:33:25] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:33:28] ✅ 弹窗关闭，调价已提交（待导出复核）
+45795748361	0	OK	[04:34:08] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:34:11] ✅ 弹窗关闭，调价已提交（待导出复核）
+85732415538	0	OK	[04:34:52] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:34:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+36810886172	0	OK	[04:35:33] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:35:36] ✅ 弹窗关闭，调价已提交（待导出复核）
+79255334904	0	OK	[04:36:17] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:36:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+72307823659	1	rc=1	 | ego's nodejs process exited with code 1.
+96332165192	0	OK	[04:38:51] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:38:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+96759809130	0	OK	[04:39:34] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:39:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+33027575762	0	OK	[04:40:18] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:40:21] ✅ 弹窗关闭，调价已提交（待导出复核）
+76382576287	0	OK	[04:41:01] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:41:04] ✅ 弹窗关闭，调价已提交（待导出复核）
+40415579433	0	OK	[04:41:45] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:41:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+72717622968	0	OK	[04:42:28] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:42:31] ✅ 弹窗关闭，调价已提交（待导出复核）
+65550966098	0	OK	[04:43:11] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:43:14] ✅ 弹窗关闭，调价已提交（待导出复核）
+74573118997	0	OK	[04:43:55] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:43:58] ✅ 弹窗关闭，调价已提交（待导出复核）
+71952303076	0	OK	[04:44:39] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:44:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+98139608281	0	OK	[04:45:24] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:45:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+92463591033	0	OK	[04:46:08] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:46:11] ✅ 弹窗关闭，调价已提交（待导出复核）
+79479140773	0	OK	[04:46:52] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:46:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+63212226108	0	OK	[04:47:35] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:47:38] ✅ 弹窗关闭，调价已提交（待导出复核）
+19994040845	0	OK	[04:48:19] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:48:22] ✅ 弹窗关闭，调价已提交（待导出复核）
+38958131411	0	OK	[04:49:03] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:49:05] ✅ 弹窗关闭，调价已提交（待导出复核）
+56031939359	0	OK	[04:49:46] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:49:49] ✅ 弹窗关闭，调价已提交（待导出复核）
+98236589841	0	OK	[04:50:30] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:50:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+44234471105	1	rc=1	 | ego's nodejs process exited with code 1.
+27817454249	1	rc=1	 | ego's nodejs process exited with code 1.
+95381855572	0	OK	[04:53:34] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [04:53:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+72307823659	3	0行可调	 | ego's nodejs process exited with code 3.
+44234471105	0	OK	[04:55:39] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:55:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+27817454249	0	OK	[04:57:13] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [04:57:16] ✅ 弹窗关闭，调价已提交（待导出复核）
+81799082165	1	rc=1	 | ego's nodejs process exited with code 1.
+87218400825	0	OK	[04:59:07] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [04:59:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+20388276912	1	rc=1	 | ego's nodejs process exited with code 1.
+34800445202	1	rc=1	 | ego's nodejs process exited with code 1.
+31531824311	0	OK	[05:01:34] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:01:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+27325442480	0	OK	[05:02:17] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:02:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+61351686704	0	OK	[05:03:01] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:03:04] ✅ 弹窗关闭，调价已提交（待导出复核）
+11203378717	0	OK	[05:03:45] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:03:48] ✅ 弹窗关闭，调价已提交（待导出复核）
+90139998391	0	OK	[05:04:28] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:04:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+12858111844	0	OK	[05:05:09] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:05:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+99436710123	0	OK	[05:05:52] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:05:55] ✅ 弹窗关闭，调价已提交（待导出复核）
+48620024258	0	OK	[05:06:35] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:06:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+47366449038	0	OK	[05:07:17] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:07:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+41537801322	0	OK	[05:08:00] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:08:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+92924839157	0	OK	[05:08:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:08:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+13711142179	0	OK	[05:09:25] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:09:27] ✅ 弹窗关闭，调价已提交（待导出复核）
+59374838062	0	OK	[05:10:07] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:10:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+82038795997	0	OK	[05:10:50] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:10:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+79699935962	0	OK	[05:11:33] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:11:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+17864756541	1	rc=1	 | ego's nodejs process exited with code 1.
+99524080916	0	OK	[05:14:30] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:14:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+70411186078	0	OK	[05:15:14] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:15:17] ✅ 弹窗关闭，调价已提交（待导出复核）
+91238056873	0	OK	[05:15:58] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:16:01] ✅ 弹窗关闭，调价已提交（待导出复核）
+56517242172	0	OK	[05:16:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:16:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+50148361631	1	rc=1	 | ego's nodejs process exited with code 1.
+52485024275	0	OK	[05:18:07] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:18:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+23594146298	0	OK	[05:18:51] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:18:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+45787865127	0	OK	[05:19:34] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:19:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+61954169637	0	OK	[05:20:17] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:20:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+99807848056	0	OK	[05:20:59] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:21:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+25109383003	0	OK	[05:21:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:21:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+85779587345	0	OK	[05:22:24] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:22:27] ✅ 弹窗关闭，调价已提交（待导出复核）
+23400190099	2	未找到目标	 | ego's nodejs process exited with code 2.
+90155518910	0	OK	[05:24:00] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:24:03] ✅ 弹窗关闭，调价已提交（待导出复核）
+79115890611	0	OK	[05:24:45] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:24:48] ✅ 弹窗关闭，调价已提交（待导出复核）
+13093996014	0	OK	[05:25:29] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:25:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+89087904892	0	OK	[05:26:13] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:26:16] ✅ 弹窗关闭，调价已提交（待导出复核）
+96027177054	0	OK	[05:26:57] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:27:00] ✅ 弹窗关闭，调价已提交（待导出复核）
+50603768851	0	OK	[05:28:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:28:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+67573065596	0	OK	[05:29:27] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:29:29] ✅ 弹窗关闭，调价已提交（待导出复核）
+10723624641	0	OK	[05:30:11] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:30:14] ✅ 弹窗关闭，调价已提交（待导出复核）
+26789652291	0	OK	[05:31:51] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:31:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+34415430377	1	rc=1	 | ego's nodejs process exited with code 1.
+86602397078	0	OK	[05:33:39] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:33:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+90354568851	0	OK	[05:34:23] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:34:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+13396877763	0	OK	[05:35:08] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:35:11] ✅ 弹窗关闭，调价已提交（待导出复核）
+81799082165	0	OK	[05:35:52] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:35:55] ✅ 弹窗关闭，调价已提交（待导出复核）
+20388276912	0	OK	[05:36:36] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:36:38] ✅ 弹窗关闭，调价已提交（待导出复核）
+34800445202	0	OK	[05:37:20] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:37:23] ✅ 弹窗关闭，调价已提交（待导出复核）
+17864756541	1	rc=1	 | ego's nodejs process exited with code 1.
+50148361631	0	OK	[05:38:29] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:38:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+23400190099	1	rc=1	 | ego's nodejs process exited with code 1.
+34415430377	0	OK	[05:40:03] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:40:06] ✅ 弹窗关闭，调价已提交（待导出复核）
+14872728632	0	OK	[05:41:18] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:41:21] ✅ 弹窗关闭，调价已提交（待导出复核）
+55130439251	0	OK	[05:42:02] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:42:05] ✅ 弹窗关闭，调价已提交（待导出复核）
+96531991407	0	OK	[05:42:46] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:43:23] ✅ 弹窗关闭，调价已提交（待导出复核）
+96962415818	2	未找到目标	 | ego's nodejs process exited with code 2.
+84550084494	0	OK	[05:44:59] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:45:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+43184107557	0	OK	[05:45:43] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:45:46] ✅ 弹窗关闭，调价已提交（待导出复核）
+40387215417	0	OK	[05:46:28] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:46:31] ✅ 弹窗关闭，调价已提交（待导出复核）
+44074229793	0	OK	[05:47:11] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:47:14] ✅ 弹窗关闭，调价已提交（待导出复核）
+21386569401	0	OK	[05:47:55] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:47:58] ✅ 弹窗关闭，调价已提交（待导出复核）
+17557939635	0	OK	[05:48:39] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:48:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+48245738202	0	OK	[05:49:23] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:49:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+93434850680	0	OK	[05:50:07] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:50:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+73523786663	0	OK	[05:50:50] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:50:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+72482995404	0	OK	[05:51:34] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:51:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+81327737101	0	OK	[05:52:18] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:52:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+69674431823	0	OK	[05:53:02] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:53:05] ✅ 弹窗关闭，调价已提交（待导出复核）
+95084243518	0	OK	[05:53:46] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:53:49] ✅ 弹窗关闭，调价已提交（待导出复核）
+37176758655	0	OK	[05:54:30] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:54:33] ✅ 弹窗关闭，调价已提交（待导出复核）
+41264333942	0	OK	[05:55:32] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:55:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+47671966424	0	OK	[05:56:13] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:56:16] ✅ 弹窗关闭，调价已提交（待导出复核）
+41687857324	0	OK	[05:56:58] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:57:00] ✅ 弹窗关闭，调价已提交（待导出复核）
+66755212238	0	OK	[05:57:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:57:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+92141889347	0	OK	[05:58:26] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [05:58:29] ✅ 弹窗关闭，调价已提交（待导出复核）
+34875957002	0	OK	[05:59:08] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [05:59:11] ✅ 弹窗关闭，调价已提交（待导出复核）
+12351849503	2	未找到目标	 | ego's nodejs process exited with code 2.
+78278420483	0	OK	[06:00:46] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:00:49] ✅ 弹窗关闭，调价已提交（待导出复核）
+13806337319	0	OK	[06:01:30] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:01:33] ✅ 弹窗关闭，调价已提交（待导出复核）
+51932432358	0	OK	[06:02:57] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:02:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+84106138500	1	rc=1	 | ego's nodejs process exited with code 1.
+52669518969	0	OK	[06:04:04] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:04:07] ✅ 弹窗关闭，调价已提交（待导出复核）
+98805523962	1	rc=1	 | ego's nodejs process exited with code 1.
+41904414284	0	OK	[06:05:57] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:06:00] ✅ 弹窗关闭，调价已提交（待导出复核）
+24374532601	0	OK	[06:06:40] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:06:43] ✅ 弹窗关闭，调价已提交（待导出复核）
+15186199031	2	未找到目标	 | ego's nodejs process exited with code 2.
+46216850174	1	rc=1	 | ego's nodejs process exited with code 1.
+29425089922	0	OK	[06:10:35] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:10:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+25071565843	1	rc=1	 | ego's nodejs process exited with code 1.
+65781690684	1	rc=1	 | ego's nodejs process exited with code 1.
+86399746911	0	OK	[06:13:13] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:13:16] ✅ 弹窗关闭，调价已提交（待导出复核）
+49306481530	0	OK	[06:13:58] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:14:00] ✅ 弹窗关闭，调价已提交（待导出复核）
+28007163145	0	OK	[06:14:41] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:14:44] ✅ 弹窗关闭，调价已提交（待导出复核）
+37537655131	0	OK	[06:15:25] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:15:28] ✅ 弹窗关闭，调价已提交（待导出复核）
+51280149023	0	OK	[06:16:09] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:16:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+96962415818	2	未找到目标	 | ego's nodejs process exited with code 2.
+12351849503	0	OK	[06:24:45] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:24:48] ✅ 弹窗关闭，调价已提交（待导出复核）
+84106138500	0	OK	[06:25:27] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:25:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+98805523962	0	OK	[06:26:09] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:26:11] ✅ 弹窗关闭，调价已提交（待导出复核）
+15186199031	0	OK	[06:26:52] 结果：填 2 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:26:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+46216850174	3	0行可调	 | ego's nodejs process exited with code 3.
+25071565843	0	OK	[06:28:37] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:28:40] ✅ 弹窗关闭，调价已提交（待导出复核）
+65781690684	0	OK	[06:29:20] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:29:23] ✅ 弹窗关闭，调价已提交（待导出复核）
+14382064985	0	OK	[06:30:05] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:30:07] ✅ 弹窗关闭，调价已提交（待导出复核）
+47977863935	0	OK	[06:30:49] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:30:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+83683509947	0	OK	[06:31:32] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:31:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+20529472489	0	OK	[06:32:15] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:32:18] ✅ 弹窗关闭，调价已提交（待导出复核）
+23207632679	0	OK	[06:32:59] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:33:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+37519918946	0	OK	[06:33:44] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:33:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+14520027076	0	OK	[06:34:27] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:34:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+94109700929	1	rc=1	 | ego's nodejs process exited with code 1.
+14153937675	0	OK	[06:36:09] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:36:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+56062511868	0	OK	[06:36:53] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:36:56] ✅ 弹窗关闭，调价已提交（待导出复核）
+19168644869	0	OK	[06:37:36] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:37:39] ✅ 弹窗关闭，调价已提交（待导出复核）
+78055761931	0	OK	[06:38:18] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:38:21] ✅ 弹窗关闭，调价已提交（待导出复核）
+26832390859	0	OK	[06:39:00] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:39:03] ✅ 弹窗关闭，调价已提交（待导出复核）
+67245795263	0	OK	[06:39:41] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:39:44] ✅ 弹窗关闭，调价已提交（待导出复核）
+74700076384	0	OK	[06:40:23] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:40:25] ✅ 弹窗关闭，调价已提交（待导出复核）
+95781866299	2	未找到目标	 | ego's nodejs process exited with code 2.
+94124461896	0	OK	[06:41:59] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:42:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+74553261766	0	OK	[06:42:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [06:42:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+33686772939	0	OK	[06:43:25] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [06:43:28] ✅ 弹窗关闭，调价已提交（待导出复核）
+37856676039	0	OK	[06:44:08] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:44:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+15109164479	0	OK	[06:44:50] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:44:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+93431033472	0	OK	[06:45:33] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:45:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+91494852467	0	OK	[06:46:15] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:46:18] ✅ 弹窗关闭，调价已提交（待导出复核）
+85075641867	0	OK	[06:46:57] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:47:00] ✅ 弹窗关闭，调价已提交（待导出复核）
+98266279496	0	OK	[06:47:39] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:47:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+94918004778	0	OK	[06:48:22] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:48:25] ✅ 弹窗关闭，调价已提交（待导出复核）
+38801819451	0	OK	[06:49:04] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:49:07] ✅ 弹窗关闭，调价已提交（待导出复核）
+62185621928	1	rc=1	 | ego's nodejs process exited with code 1.
+19779107613	0	OK	[06:51:27] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:51:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+14099773838	0	OK	[06:52:09] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:52:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+98505931164	1	rc=1	 | ego's nodejs process exited with code 1.
+10806671909	0	OK	[06:55:06] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:55:09] ✅ 弹窗关闭，调价已提交（待导出复核）
+99115189952	0	OK	[06:55:49] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:55:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+20174985431	0	OK	[06:56:30] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:56:33] ✅ 弹窗关闭，调价已提交（待导出复核）
+61707850555	0	OK	[06:57:11] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:57:14] ✅ 弹窗关闭，调价已提交（待导出复核）
+85925639803	0	OK	[06:57:51] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:57:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+74212575365	0	OK	[06:59:06] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [06:59:09] ✅ 弹窗关闭，调价已提交（待导出复核）
+41586977778	3	0行可调	 | ego's nodejs process exited with code 3.
+69112934984	0	OK	[07:00:50] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:00:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+83425154265	0	OK	[07:01:51] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:01:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+11424252329	0	OK	[07:02:34] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:02:37] ✅ 弹窗关闭，调价已提交（待导出复核）
+16859163852	0	OK	[07:03:16] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:03:19] ✅ 弹窗关闭，调价已提交（待导出复核）
+94109700929	0	OK	[07:04:00] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:04:03] ✅ 弹窗关闭，调价已提交（待导出复核）
+95781866299	0	OK	[07:04:43] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:04:46] ✅ 弹窗关闭，调价已提交（待导出复核）
+62185621928	0	OK	[07:05:56] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:05:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+98505931164	3	0行可调	 | ego's nodejs process exited with code 3.
+87892443540	0	OK	[07:07:17] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:07:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+43385880049	0	OK	[07:08:00] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:08:03] ✅ 弹窗关闭，调价已提交（待导出复核）
+59774553311	0	OK	[07:08:42] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:08:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+97411759360	0	OK	[07:09:24] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:09:27] ✅ 弹窗关闭，调价已提交（待导出复核）
+61491946470	0	OK	[07:10:07] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:10:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+25474808361	0	OK	[07:10:49] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:10:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+16075395821	0	OK	[07:11:32] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:11:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+28755803279	0	OK	[07:12:14] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:12:17] ✅ 弹窗关闭，调价已提交（待导出复核）
+40282134862	0	OK	[07:12:57] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:12:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+70497300622	0	OK	[07:13:39] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:13:42] ✅ 弹窗关闭，调价已提交（待导出复核）
+55130834270	0	OK	[07:14:22] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:14:24] ✅ 弹窗关闭，调价已提交（待导出复核）
+22749071089	0	OK	[07:15:04] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:15:07] ✅ 弹窗关闭，调价已提交（待导出复核）
+71267575552	0	OK	[07:15:47] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:15:50] ✅ 弹窗关闭，调价已提交（待导出复核）
+94715832692	0	OK	[07:16:30] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:16:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+63732173963	0	OK	[07:17:12] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:17:15] ✅ 弹窗关闭，调价已提交（待导出复核）
+67202352001	0	OK	[07:17:54] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:17:57] ✅ 弹窗关闭，调价已提交（待导出复核）
+41020924571	0	OK	[07:18:37] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:18:40] ✅ 弹窗关闭，调价已提交（待导出复核）
+67574387690	0	OK	[07:19:20] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:19:22] ✅ 弹窗关闭，调价已提交（待导出复核）
+97261402898	0	OK	[07:20:33] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:20:36] ✅ 弹窗关闭，调价已提交（待导出复核）
+80499809390	0	OK	[07:21:16] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:21:19] ✅ 弹窗关闭，调价已提交（待导出复核）
+57461577924	0	OK	[07:21:59] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:22:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+23085022172	0	OK	[07:22:42] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [07:22:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+90489153080	0	OK	[07:23:25] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [07:23:27] ✅ 弹窗关闭，调价已提交（待导出复核）
+40520919024	0	OK	[07:24:07] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:24:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+96227668461	1	rc=1	 | ego's nodejs process exited with code 1.
+58876412752	0	OK	[07:26:38] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [07:26:41] ✅ 弹窗关闭，调价已提交（待导出复核）
+70117189196	0	OK	[07:27:22] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:27:24] ✅ 弹窗关闭，调价已提交（待导出复核）
+53181805387	0	OK	[07:28:06] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [07:28:09] ✅ 弹窗关闭，调价已提交（待导出复核）
+34099166796	0	OK	[07:28:49] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:28:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+86423088377	0	OK	[07:29:31] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:29:34] ✅ 弹窗关闭，调价已提交（待导出复核）
+75331244816	0	OK	[07:30:14] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:30:17] ✅ 弹窗关闭，调价已提交（待导出复核）
+50529128204	0	OK	[07:30:57] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:30:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+33987074403	0	OK	[07:31:40] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:31:43] ✅ 弹窗关闭，调价已提交（待导出复核）
+45565838053	3	0行可调	 | ego's nodejs process exited with code 3.
+30445049638	1	rc=1	 | ego's nodejs process exited with code 1.
+84980247994	1	rc=1	 | ego's nodejs process exited with code 1.
+14792033791	0	OK	[07:36:16] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:36:19] ✅ 弹窗关闭，调价已提交（待导出复核）
+54111527443	0	OK	[07:37:40]   第1次提交弹窗未关，弹窗文本: 个性化照片生日餐巾，定制“昔日与今朝”主题凤尾鸡尾酒餐巾，适用于里程碑生日派对、吧台推车、饮品台及甜品桌装饰家居、厨房用品、活动和派对用品、派对餐具、派对餐巾S | [07:37:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+77411827486	0	OK	[07:38:27] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:38:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+68926320373	0	OK	[07:39:27] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:39:30] ✅ 弹窗关闭，调价已提交（待导出复核）
+98207827585	0	OK	[07:40:10] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:40:12] ✅ 弹窗关闭，调价已提交（待导出复核）
+41460082438	0	OK	[07:40:53] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:40:56] ✅ 弹窗关闭，调价已提交（待导出复核）
+58679049658	0	OK	[07:41:36] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:41:39] ✅ 弹窗关闭，调价已提交（待导出复核）
+73136776038	0	OK	[07:42:19] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:42:22] ✅ 弹窗关闭，调价已提交（待导出复核）
+58074944837	0	OK	[07:43:01] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:43:04] ✅ 弹窗关闭，调价已提交（待导出复核）
+58854477738	0	OK	[07:43:45] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:43:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+96227668461	0	OK	[07:44:28] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:44:31] ✅ 弹窗关闭，调价已提交（待导出复核）
+30445049638	0	OK	[07:45:11] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:45:14] ✅ 弹窗关闭，调价已提交（待导出复核）
+84980247994	0	OK	[07:45:53] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:45:56] ✅ 弹窗关闭，调价已提交（待导出复核）
+44973746015	0	OK	[07:46:37] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:46:39] ✅ 弹窗关闭，调价已提交（待导出复核）
+59136940121	1	rc=1	 | ego's nodejs process exited with code 1.
+95163902065	0	OK	[07:47:51] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:47:54] ✅ 弹窗关闭，调价已提交（待导出复核）
+81643480227	1	rc=1	 | ego's nodejs process exited with code 1.
+54205140922	0	OK	[07:49:47] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:49:49] ✅ 弹窗关闭，调价已提交（待导出复核）
+50217943996	0	OK	[07:50:30] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:50:32] ✅ 弹窗关闭，调价已提交（待导出复核）
+71112113933	1	rc=1	 | ego's nodejs process exited with code 1.
+44172475714	0	OK	[07:52:19] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:52:21] ✅ 弹窗关闭，调价已提交（待导出复核）
+45717122564	2	未找到目标	 | ego's nodejs process exited with code 2.
+99204267941	0	OK	[07:53:56] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:53:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+84168486755	1	rc=1	 | ego's nodejs process exited with code 1.
+97159427572	1	rc=1	 | ego's nodejs process exited with code 1.
+58431764696	1	rc=1	 | ego's nodejs process exited with code 1.
+92227286904	0	OK	[07:57:01] 结果：填 1 / 取消勾选 0 / 跳过 0 / 失败 0 | [07:57:04] ✅ 弹窗关闭，调价已提交（待导出复核）
+82589753251	0	OK	[07:57:44] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:57:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+64635784359	1	rc=1	 | ego's nodejs process exited with code 1.
+21278086371	0	OK	[07:59:20] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [07:59:23] ✅ 弹窗关闭，调价已提交（待导出复核）
+42259001935	0	OK	[08:00:03] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:00:06] ✅ 弹窗关闭，调价已提交（待导出复核）
+48168293115	0	OK	[08:00:49] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [08:00:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+61210578728	2	未找到目标	 | ego's nodejs process exited with code 2.
+70980227870	0	OK	[08:02:28] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:02:31] ✅ 弹窗关闭，调价已提交（待导出复核）
+37264171381	0	OK	[08:03:12] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:03:15] ✅ 弹窗关闭，调价已提交（待导出复核）
+11009561085	1	rc=1	 | ego's nodejs process exited with code 1.
+51029528584	0	OK	[08:04:36] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:04:39] ✅ 弹窗关闭，调价已提交（待导出复核）
+30067265814	0	OK	[08:05:20] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:05:23] ✅ 弹窗关闭，调价已提交（待导出复核）
+37079062643	2	未找到目标	 | ego's nodejs process exited with code 2.
+77785658443	0	OK	[08:06:55] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:06:58] ✅ 弹窗关闭，调价已提交（待导出复核）
+33800194688	1	rc=1	 | ego's nodejs process exited with code 1.
+81284828420	0	OK	[08:08:30] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:08:33] ✅ 弹窗关闭，调价已提交（待导出复核）
+67289033393	0	OK	[08:09:13] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:09:16] ✅ 弹窗关闭，调价已提交（待导出复核）
+34137607377	0	OK	[08:09:56] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:09:59] ✅ 弹窗关闭，调价已提交（待导出复核）
+20096972058	0	OK	[08:10:40] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:10:43] ✅ 弹窗关闭，调价已提交（待导出复核）
+73696387045	0	OK	[08:11:23] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:11:26] ✅ 弹窗关闭，调价已提交（待导出复核）
+37518779990	0	OK	[08:12:07] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:12:10] ✅ 弹窗关闭，调价已提交（待导出复核）
+29404965071	0	OK	[08:12:50] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:12:53] ✅ 弹窗关闭，调价已提交（待导出复核）
+23889098370	0	OK	[08:13:33] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:13:36] ✅ 弹窗关闭，调价已提交（待导出复核）
+12861693309	0	OK	[08:14:17] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:14:19] ✅ 弹窗关闭，调价已提交（待导出复核）
+89426650192	0	OK	[08:15:00] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:15:03] ✅ 弹窗关闭，调价已提交（待导出复核）
+63153585270	0	OK	[08:15:44] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [08:15:47] ✅ 弹窗关闭，调价已提交（待导出复核）
+69473996620	0	OK	[08:16:28] 结果：填 1 / 取消勾选 2 / 跳过 0 / 失败 0 | [08:16:31] ✅ 弹窗关闭，调价已提交（待导出复核）
+55353497774	3	0行可调	 | ego's nodejs process exited with code 3.
+91780480438	3	0行可调	 | ego's nodejs process exited with code 3.
+93531761320	3	0行可调	 | ego's nodejs process exited with code 3.
+91971789230	3	0行可调	 | ego's nodejs process exited with code 3.
+20648251148	1	rc=1	 | ego's nodejs process exited with code 1.
+44656795939	3	0行可调	 | ego's nodejs process exited with code 3.
+66493378022	3	0行可调	 | ego's nodejs process exited with code 3.
+59136940121	0	OK	[08:22:49] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:22:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+81643480227	0	OK	[08:24:13]   第1次提交弹窗未关，弹窗文本: 50/100pcs【定制品】定制姓名日期印花餐巾、专属新人定制餐巾、优雅宴会桌饰，支持宾客名单个性化定制。家居、厨房用品、活动和派对用品、派对餐具、派对餐巾SK | [08:24:20] ✅ 弹窗关闭，调价已提交（待导出复核）
+71112113933	2	未找到目标	 | ego's nodejs process exited with code 2.
+45717122564	0	OK	[08:25:55] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:25:58] ✅ 弹窗关闭，调价已提交（待导出复核）
+84168486755	0	OK	[08:26:39] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:26:41] ✅ 弹窗关闭，调价已提交（待导出复核）
+97159427572	0	OK	[08:27:22] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:27:25] ✅ 弹窗关闭，调价已提交（待导出复核）
+58431764696	0	OK	[08:28:06] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:28:08] ✅ 弹窗关闭，调价已提交（待导出复核）
+64635784359	0	OK	[08:28:49] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:28:52] ✅ 弹窗关闭，调价已提交（待导出复核）
+61210578728	0	OK	[08:29:32] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:29:35] ✅ 弹窗关闭，调价已提交（待导出复核）
+11009561085	0	OK	[08:30:16] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:30:19] ✅ 弹窗关闭，调价已提交（待导出复核）
+37079062643	0	OK	[08:30:59] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:31:02] ✅ 弹窗关闭，调价已提交（待导出复核）
+33800194688	0	OK	[08:31:42] 结果：填 1 / 取消勾选 1 / 跳过 0 / 失败 0 | [08:31:45] ✅ 弹窗关闭，调价已提交（待导出复核）
+20648251148	3	0行可调	 | ego's nodejs process exited with code 3.
+37057854333	3	0行可调	 | ego's nodejs process exited with code 3.
+41209009219	3	0行可调	 | ego's nodejs process exited with code 3.
+57994192668	3	0行可调	 | ego's nodejs process exited with code 3.
+45695151654	3	0行可调	 | ego's nodejs process exited with code 3.
+98571497346	3	0行可调	 | ego's nodejs process exited with code 3.
+80445960958	3	0行可调	 | ego's nodejs process exited with code 3.
+38197161230	3	0行可调	 | ego's nodejs process exited with code 3.
+41236615092	1	rc=1	 | ego's nodejs process exited with code 1.
+21622028175	3	0行可调	 | ego's nodejs process exited with code 3.
+35435611857	1	rc=1	 | ego's nodejs process exited with code 1.
+59213106305	3	0行可调	 | ego's nodejs process exited with code 3.
+80181321421	3	0行可调	 | ego's nodejs process exited with code 3.
+38410839935	3	0行可调	 | ego's nodejs process exited with code 3.
+28493072582	3	0行可调	 | ego's nodejs process exited with code 3.
+53164943898	3	0行可调	 | ego's nodejs process exited with code 3.
+35943783905	3	0行可调	 | ego's nodejs process exited with code 3.
+57407295625	3	0行可调	 | ego's nodejs process exited with code 3.
+95823529736	3	0行可调	 | ego's nodejs process exited with code 3.
+40386255922	3	0行可调	 | ego's nodejs process exited with code 3.
+95360451900	3	0行可调	 | ego's nodejs process exited with code 3.
+19549606930	3	0行可调	 | ego's nodejs process exited with code 3.
+60196915667	3	0行可调	 | ego's nodejs process exited with code 3.
+25430202653	3	0行可调	 | ego's nodejs process exited with code 3.
+44457022470	3	0行可调	 | ego's nodejs process exited with code 3.
+34104569447	3	0行可调	 | ego's nodejs process exited with code 3.
+92826124462	3	0行可调	 | ego's nodejs process exited with code 3.
+91103544711	3	0行可调	 | ego's nodejs process exited with code 3.
+41961216021	3	0行可调	 | ego's nodejs process exited with code 3.
+59384987187	3	0行可调	 | ego's nodejs process exited with code 3.
+86226517855	3	0行可调	 | ego's nodejs process exited with code 3.
+87249394550	3	0行可调	 | ego's nodejs process exited with code 3.
+52868939503	3	0行可调	 | ego's nodejs process exited with code 3.
+52182245994	3	0行可调	 | ego's nodejs process exited with code 3.
+91937073129	3	0行可调	 | ego's nodejs process exited with code 3.
+27063355677	3	0行可调	 | ego's nodejs process exited with code 3.
+73483207287	3	0行可调	 | ego's nodejs process exited with code 3.
+16635449888	1	rc=1	 | ego's nodejs process exited with code 1.
+41236615092	3	0行可调	 | ego's nodejs process exited with code 3.
+35435611857	3	0行可调	 | ego's nodejs process exited with code 3.
+16635449888	1	rc=1	 | ego's nodejs process exited with code 1.
+46916114308	3	0行可调	 | ego's nodejs process exited with code 3.
+37193534020	3	0行可调	 | ego's nodejs process exited with code 3.
+17229423077	3	0行可调	 | ego's nodejs process exited with code 3.
+88272983912	3	0行可调	 | ego's nodejs process exited with code 3.
+75376207575	3	0行可调	 | ego's nodejs process exited with code 3.
+69279117802	3	0行可调	 | ego's nodejs process exited with code 3.
+33574625644	3	0行可调	 | ego's nodejs process exited with code 3.
+16279652604	3	0行可调	 | ego's nodejs process exited with code 3.
+37705071482	3	0行可调	 | ego's nodejs process exited with code 3.
+11826416048	3	0行可调	 | ego's nodejs process exited with code 3.
+21097710780	3	0行可调	 | ego's nodejs process exited with code 3.
+72650462019	3	0行可调	 | ego's nodejs process exited with code 3.
+11051354688	3	0行可调	 | ego's nodejs process exited with code 3.
+25255269033	3	0行可调	 | ego's nodejs process exited with code 3.
+70153234468	3	0行可调	 | ego's nodejs process exited with code 3.
+39536765903	3	0行可调	 | ego's nodejs process exited with code 3.
+42989791478	3	0行可调	 | ego's nodejs process exited with code 3.
+15853898641	3	0行可调	 | ego's nodejs process exited with code 3.
+26551121056	3	0行可调	 | ego's nodejs process exited with code 3.
+61495629597	3	0行可调	 | ego's nodejs process exited with code 3.
+22310349565	3	0行可调	 | ego's nodejs process exited with code 3.
+31262745133	3	0行可调	 | ego's nodejs process exited with code 3.
+30684438213	3	0行可调	 | ego's nodejs process exited with code 3.
+62508966817	3	0行可调	 | ego's nodejs process exited with code 3.
+71608694648	3	0行可调	 | ego's nodejs process exited with code 3.
+56537952152	3	0行可调	 | ego's nodejs process exited with code 3.
+44185159429	3	0行可调	 | ego's nodejs process exited with code 3.
+82555520055	3	0行可调	 | ego's nodejs process exited with code 3.
+80107452021	3	0行可调	 | ego's nodejs process exited with code 3.
+31561632888	3	0行可调	 | ego's nodejs process exited with code 3.
+16742451865	3	0行可调	 | ego's nodejs process exited with code 3.
+14619329841	3	0行可调	 | ego's nodejs process exited with code 3.
+53937731762	3	0行可调	 | ego's nodejs process exited with code 3.
+77200318097	3	0行可调	 | ego's nodejs process exited with code 3.
+80411985644	3	0行可调	 | ego's nodejs process exited with code 3.
+72365256159	3	0行可调	 | ego's nodejs process exited with code 3.
+63568071657	3	0行可调	 | ego's nodejs process exited with code 3.
+39379128970	3	0行可调	 | ego's nodejs process exited with code 3.
+16366497344	3	0行可调	 | ego's nodejs process exited with code 3.
+70868828749	3	0行可调	 | ego's nodejs process exited with code 3.
+57301327834	3	0行可调	 | ego's nodejs process exited with code 3.
+17772687278	3	0行可调	 | ego's nodejs process exited with code 3.
+25213969871	3	0行可调	 | ego's nodejs process exited with code 3.
+64755227044	3	0行可调	 | ego's nodejs process exited with code 3.
+82288201073	3	0行可调	 | ego's nodejs process exited with code 3.
+22823096320	3	0行可调	 | ego's nodejs process exited with code 3.
+96299672636	3	0行可调	 | ego's nodejs process exited with code 3.
+55086939689	3	0行可调	 | ego's nodejs process exited with code 3.
+28187649839	3	0行可调	 | ego's nodejs process exited with code 3.
+39886768483	3	0行可调	 | ego's nodejs process exited with code 3.
+11576403596	3	0行可调	 | ego's nodejs process exited with code 3.
+73903984983	3	0行可调	 | ego's nodejs process exited with code 3.
+22543075789	3	0行可调	 | ego's nodejs process exited with code 3.
+41534390595	3	0行可调	 | ego's nodejs process exited with code 3.
+12368538179	3	0行可调	 | ego's nodejs process exited with code 3.
+96041715800	3	0行可调	 | ego's nodejs process exited with code 3.
+59245825614	3	0行可调	 | ego's nodejs process exited with code 3.
+66734481713	3	0行可调	 | ego's nodejs process exited with code 3.
+26949365408	3	0行可调	 | ego's nodejs process exited with code 3.
+94787144613	3	0行可调	 | ego's nodejs process exited with code 3.
+50054640372	3	0行可调	 | ego's nodejs process exited with code 3.
+57622612681	3	0行可调	 | ego's nodejs process exited with code 3.
+86826402688	3	0行可调	 | ego's nodejs process exited with code 3.
+49871719492	3	0行可调	 | ego's nodejs process exited with code 3.
+73735067043	3	0行可调	 | ego's nodejs process exited with code 3.
+88050480118	3	0行可调	 | ego's nodejs process exited with code 3.
+50119992558	3	0行可调	 | ego's nodejs process exited with code 3.
+95825283172	3	0行可调	 | ego's nodejs process exited with code 3.
+25405692065	3	0行可调	 | ego's nodejs process exited with code 3.
+96560479526	3	0行可调	 | ego's nodejs process exited with code 3.
+20840655838	3	0行可调	 | ego's nodejs process exited with code 3.
+66541291647	3	0行可调	 | ego's nodejs process exited with code 3.
+26366100835	3	0行可调	 | ego's nodejs process exited with code 3.
+65986166387	3	0行可调	 | ego's nodejs process exited with code 3.
+58491543842	3	0行可调	 | ego's nodejs process exited with code 3.
+37322431211	3	0行可调	 | ego's nodejs process exited with code 3.
+86982901256	3	0行可调	 | ego's nodejs process exited with code 3.
+11031784837	3	0行可调	 | ego's nodejs process exited with code 3.
+50449171716	3	0行可调	 | ego's nodejs process exited with code 3.
+12141134783	3	0行可调	 | ego's nodejs process exited with code 3.
+86108106978	3	0行可调	 | ego's nodejs process exited with code 3.
+86642159184	3	0行可调	 | ego's nodejs process exited with code 3.
+78668393479	3	0行可调	 | ego's nodejs process exited with code 3.
+83036364000	3	0行可调	 | ego's nodejs process exited with code 3.
+35467513133	3	0行可调	 | ego's nodejs process exited with code 3.
+82512491113	3	0行可调	 | ego's nodejs process exited with code 3.
+49895737512	3	0行可调	 | ego's nodejs process exited with code 3.
+49573571398	3	0行可调	 | ego's nodejs process exited with code 3.
+11411795952	3	0行可调	 | ego's nodejs process exited with code 3.
+54076149820	3	0行可调	 | ego's nodejs process exited with code 3.
+97888421847	3	0行可调	 | ego's nodejs process exited with code 3.
+89064658833	3	0行可调	 | ego's nodejs process exited with code 3.
+41741395103	3	0行可调	 | ego's nodejs process exited with code 3.
+38341706966	1	rc=1	 | ego's nodejs process exited with code 1.
+29058124433	3	0行可调	 | ego's nodejs process exited with code 3.
+98566501298	3	0行可调	 | ego's nodejs process exited with code 3.
+18292172098	3	0行可调	 | ego's nodejs process exited with code 3.
+38341706966	3	0行可调	 | ego's nodejs process exited with code 3.
+21239524900	3	0行可调	 | ego's nodejs process exited with code 3.
+16619362722	3	0行可调	 | ego's nodejs process exited with code 3.
+68360085387	3	0行可调	 | ego's nodejs process exited with code 3.
+93015357412	3	0行可调	 | ego's nodejs process exited with code 3.

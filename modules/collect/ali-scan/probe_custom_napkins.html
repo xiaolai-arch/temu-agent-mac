@@ -1,0 +1,27 @@
+
+<a id="a-link"></a>
+<script>
+  localStorage.x5referer = window.location.href;	
+  var link = document.getElementById("a-link");
+  var isMobile = navigator.userAgent.match(/.*(iPhone|iPad|Android|ios|SymbianOS|Windows Phone).*/i);
+  var host = isMobile ? "https://www.aliexpress.com/p/ug-login-page/login.html?forceAdapt=mobile&return_url=" : "https://login.aliexpress.com/?from=sm&return_url=";
+  try {
+	var hostValue = window.location.host;
+	var parts = hostValue && hostValue.split('.');
+	var exp = new Date();
+	var maxAge = -100;
+	exp.setTime(exp.getTime() + maxAge);
+	var cookie = 'x5secdata=;maxAge=' + maxAge + ';expires=' + exp.toUTCString() + ';path=/;domain=.' + parts.slice(-2).join('.') + ';';
+	document.cookie = cookie;
+	document.cookie = cookie + 'Secure;SameSite=None';
+  } catch(e) {}
+  link.href = host + "https%3a%2f%2fwww.aliexpress.com:443/w/wholesale-custom-napkins.html%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3D8feaa457abfdbc5f649b13c59a6a6b37___113907___6c920e606c51432373beaba138311b18___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cb0fdadb7010d7c9570914d1cfea4b6e3486c2d2d87b0a7c74f8a6fcf3529b9fc32a8700e897172e1d1be45e62a18dadde83ad3df7aada428bfdce4e80db0897d047184fdf1101b44bc8a550040e8bf51b8a09b260731f1bcd9d6874a5b381ab10fa5a006f894296684ae17bbd0aade11a09c5aa2c8e498d9265814f8c69a4af87212061f803aa8a225882f05c886f15a536c79ee67fc1b324effd16d3f18d0f18573efd9da76ac422830f9dd5d51430d0919e1ae4bc2762ad3c6cc1383420962de6e2029c382ab9dea3cae1b670f7c9f3d7b900bf307a7a24a26aee789d89eaf83f1362daa8fd74ab2ac7ccc63f29c1a01ca90b63f805ebd28d7496c07a158f99d4a4cbfc8b77157a8b254d534bea56f77e3ea6bcd8c13ac1467f7a932748fdb9aaec54905b95e319d4b3d73b0cc4c83eebc539505d063ecf02cebaccca20351&uuid=8feaa457abfdbc5f649b13c59a6a6b37";
+  link.click();
+ window._config_ = {
+   "action": "login",
+   "url": "https://www.aliexpress.com/p/ug-login-page/login.html?forceAdapt=mobile&return_url=https%3a%2f%2fwww.aliexpress.com:443/w/wholesale-custom-napkins.html%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D8feaa457abfdbc5f649b13c59a6a6b37%26_lgt_%3D8feaa457abfdbc5f649b13c59a6a6b37___113907___6c920e606c51432373beaba138311b18___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cb0fdadb7010d7c9570914d1cfea4b6e3486c2d2d87b0a7c74f8a6fcf3529b9fc32a8700e897172e1d1be45e62a18dadde83ad3df7aada428bfdce4e80db0897d047184fdf1101b44bc8a550040e8bf51b8a09b260731f1bcd9d6874a5b381ab10fa5a006f894296684ae17bbd0aade11a09c5aa2c8e498d9265814f8c69a4af87212061f803aa8a225882f05c886f15a536c79ee67fc1b324effd16d3f18d0f18573efd9da76ac422830f9dd5d51430d0919e1ae4bc2762ad3c6cc1383420962de6e2029c382ab9dea3cae1b670f7c9f3d7b900bf307a7a24a26aee789d89eaf83f1362daa8fd74ab2ac7ccc63f29c1a01ca90b63f805ebd28d7496c07a158f99d4a4cbfc8b77157a8b254d534bea56f77e3ea6bcd8c13ac1467f7a932748fdb9aaec54905b95e319d4b3d73b0cc4c83eebc539505d063ecf02cebaccca20351",
+   "h5url": "https://www.aliexpress.com/p/ug-login-page/login.html?forceAdapt=mobile&return_url=https%3a%2f%2fwww.aliexpress.com:443/w/wholesale-custom-napkins.html%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D8feaa457abfdbc5f649b13c59a6a6b37%26_lgt_%3D8feaa457abfdbc5f649b13c59a6a6b37___113907___6c920e606c51432373beaba138311b18___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06cb0fdadb7010d7c9570914d1cfea4b6e3486c2d2d87b0a7c74f8a6fcf3529b9fc32a8700e897172e1d1be45e62a18dadde83ad3df7aada428bfdce4e80db0897d047184fdf1101b44bc8a550040e8bf51b8a09b260731f1bcd9d6874a5b381ab10fa5a006f894296684ae17bbd0aade11a09c5aa2c8e498d9265814f8c69a4af87212061f803aa8a225882f05c886f15a536c79ee67fc1b324effd16d3f18d0f18573efd9da76ac422830f9dd5d51430d0919e1ae4bc2762ad3c6cc1383420962de6e2029c382ab9dea3cae1b670f7c9f3d7b900bf307a7a24a26aee789d89eaf83f1362daa8fd74ab2ac7ccc63f29c1a01ca90b63f805ebd28d7496c07a158f99d4a4cbfc8b77157a8b254d534bea56f77e3ea6bcd8c13ac1467f7a932748fdb9aaec54905b95e319d4b3d73b0cc4c83eebc539505d063ecf02cebaccca20351",
+   "dialogSize": {"width": "", "height": ""}
+};
+</script>
+<!--rgv587_flag:sm-->
