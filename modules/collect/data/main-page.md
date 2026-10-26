@@ -1,7 +1,7 @@
-# main 商品列表页快照（ego-browser 语义） 2026-10-24
+# main 商品列表页快照（ego-browser 语义） 2026-10-25
 
 ```
-[p1 "商品列表" | space "temu-agent"(2): 1 managed, 0 untracked — p1* "商品列表"]
+[p1 "商品列表" | space "temu-agent"(2): 2 managed, 0 untracked — p1* "商品列表", p3 "untitled"]
 root
   svg_root
   container
@@ -20,7 +20,7 @@ root
           container
             svg_root
             text "运营对接"
-          anchor [ref=2511]
+          anchor [ref=362]
             text "2"
             container
               svg_root
@@ -44,198 +44,195 @@ root
             svg_root
     container
       container
-        container [ref=2512]
+        container [ref=363]
+          anchor [ref=364, loc=href:/, url=https://agentseller.temu.com/]
+            svg_root
+            text "首页"
           container
-            anchor [ref=2513, loc=href:/, url=https://agentseller.temu.com/]
-              image
-                svg_root
-              text "首页"
-            container
-              anchor [ref=2514, loc=href:/main/link-advertisement, url=https://agentseller.temu.com/main/link-advertisement]
-                text "TEMU Agent Center"
-              anchor [ref=2515, loc=href:/main/agreements/sign-agreement, url=https://agentseller.temu.com/main/agreements/sign-agreement]
-                text "协议签署"
+            anchor [ref=365, loc=href:/main/link-advertisement, url=https://agentseller.temu.com/main/link-advertisement]
+              text "TEMU Agent Center"
+            anchor [ref=366, loc=href:/main/agreements/sign-agreement, url=https://agentseller.temu.com/main/agreements/sign-agreement]
+              text "协议签署"
           container
-            anchor [ref=2516, url=https://agentseller.temu.com/goods/list]
+            anchor [ref=367, url=https://agentseller.temu.com/goods/list]
               image
                 svg_root
               text "备货管理"
               svg_root
             container
-              anchor [ref=2517, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=368, url=https://agentseller.temu.com/goods/list]
                 text "我的备货单"
-              anchor [ref=2518, loc=href:https://seller.kuajingmaihuo.com/main/order-manager/shipping-desk, url=https://seller.kuajingmaihuo.com/main/order-manager/shipping-desk]
+              anchor [ref=369, loc=href:https://seller.kuajingmaihuo.com/main/order-manager/shipping-desk, url=https://seller.kuajingmaihuo.com/main/order-manager/shipping-desk]
                 text "发货台"
-              anchor [ref=2519, loc=href:https://seller.kuajingmaihuo.com/main/order-manager/shipping-list, url=https://seller.kuajingmaihuo.com/main/order-manager/shipping-list]
+              anchor [ref=370, loc=href:https://seller.kuajingmaihuo.com/main/order-manager/shipping-list, url=https://seller.kuajingmaihuo.com/main/order-manager/shipping-list]
                 text "发货单列表"
-              anchor [ref=2520, loc=href:/goods/label, url=https://agentseller.temu.com/goods/label]
+              anchor [ref=371, loc=href:/goods/label, url=https://agentseller.temu.com/goods/label]
                 text "商品条码管理"
-              anchor [ref=2521, loc=href:https://seller.kuajingmaihuo.com/main/delivery/drivers-manage, url=https://seller.kuajingmaihuo.com/main/delivery/drivers-manage]
+              anchor [ref=372, loc=href:https://seller.kuajingmaihuo.com/main/delivery/drivers-manage, url=https://seller.kuajingmaihuo.com/main/delivery/drivers-manage]
                 text "司机/地址管理"
-              anchor [ref=2522, loc=href:/main/privilege-center, url=https://agentseller.temu.com/main/privilege-center]
+              anchor [ref=373, loc=href:/main/privilege-center, url=https://agentseller.temu.com/main/privilege-center]
                 text "权益中心"
-              anchor [ref=2523, loc=href:/goods/stocking-vacuum, url=https://agentseller.temu.com/goods/stocking-vacuum]
+              anchor [ref=374, loc=href:/goods/stocking-vacuum, url=https://agentseller.temu.com/goods/stocking-vacuum]
                 text "备货抽真空"
           container
-            anchor [ref=2524, url=https://agentseller.temu.com/goods/list]
+            anchor [ref=375, url=https://agentseller.temu.com/goods/list]
               image
                 svg_root
               text "销售管理"
               svg_root
             container
-              anchor [ref=2525, loc=href:/stock/fully-mgt/sale-manage/main, url=https://agentseller.temu.com/stock/fully-mgt/sale-manage/main]
+              anchor [ref=376, loc=href:/stock/fully-mgt/sale-manage/main, url=https://agentseller.temu.com/stock/fully-mgt/sale-manage/main]
                 text "销售管理"
-              anchor [ref=2526, loc=href:/stock/fully-mgt/sale-manage/board/sku-sale-out, url=https://agentseller.temu.com/stock/fully-mgt/sale-manage/board/sku-sale-out]
+              anchor [ref=377, loc=href:/stock/fully-mgt/sale-manage/board/sku-sale-out, url=https://agentseller.temu.com/stock/fully-mgt/sale-manage/board/sku-sale-out]
                 text "售罄看板"
-              anchor [ref=2527, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=378, url=https://agentseller.temu.com/goods/list]
                 text "履约看板"
-              anchor [ref=2528, loc=href:/wms/deliver-examine-board, url=https://agentseller.temu.com/wms/deliver-examine-board]
+              anchor [ref=379, loc=href:/wms/deliver-examine-board, url=https://agentseller.temu.com/wms/deliver-examine-board]
                 text "发货表现评估看板"
-              anchor [ref=2529, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=380, url=https://agentseller.temu.com/goods/list]
                 text "收货入库异常看板"
-          anchor [ref=2530, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=381, url=https://agentseller.temu.com/goods/list]
             image
               svg_root
             text "库存管理"
             svg_root
           container
-            anchor [ref=2531, url=https://agentseller.temu.com/goods/list]
+            anchor [ref=382, url=https://agentseller.temu.com/goods/list]
               image
                 svg_root
               text "商品管理"
               svg_root
             container
               container
-                anchor [ref=2532, url=https://agentseller.temu.com/goods/list]
+                anchor [ref=383, url=https://agentseller.temu.com/goods/list]
                   text "商品列表"
                 container
-                  anchor [ref=2533, loc=href:/goods/discard, url=https://agentseller.temu.com/goods/discard]
+                  anchor [ref=384, loc=href:/goods/discard, url=https://agentseller.temu.com/goods/discard]
                     svg_root
                     text "已废弃商品"
-                  anchor [ref=2534, loc=href:/goods/images-edit, url=https://agentseller.temu.com/goods/images-edit]
+                  anchor [ref=385, loc=href:/goods/images-edit, url=https://agentseller.temu.com/goods/images-edit]
                     svg_root
                     text "图片更新任务详情"
-                  anchor [ref=2535, loc=href:/goods/stock-edit, url=https://agentseller.temu.com/goods/stock-edit]
+                  anchor [ref=386, loc=href:/goods/stock-edit, url=https://agentseller.temu.com/goods/stock-edit]
                     svg_root
                     text "设置库存"
-                  anchor [ref=2536, loc=href:/goods/draft, url=https://agentseller.temu.com/goods/draft]
+                  anchor [ref=387, loc=href:/goods/draft, url=https://agentseller.temu.com/goods/draft]
                     svg_root
                     text "商品草稿"
-                  anchor [ref=2537, loc=href:/goods/edit, url=https://agentseller.temu.com/goods/edit]
+                  anchor [ref=388, loc=href:/goods/edit, url=https://agentseller.temu.com/goods/edit]
                     svg_root
                     text "商品发布"
-                  anchor [ref=2538, loc=href:/newon/glo-bsr-flow, url=https://agentseller.temu.com/newon/glo-bsr-flow]
+                  anchor [ref=389, loc=href:/newon/glo-bsr-flow, url=https://agentseller.temu.com/newon/glo-bsr-flow]
                     svg_root
                     text "爆款跟卖"
-              anchor [ref=2539, loc=href:/goods/create/category, url=https://agentseller.temu.com/goods/create/category]
+              anchor [ref=390, loc=href:/goods/create/category, url=https://agentseller.temu.com/goods/create/category]
                 text "新建商品"
-              anchor [ref=2540, loc=href:/newon/product-select, url=https://agentseller.temu.com/newon/product-select]
+              anchor [ref=391, loc=href:/newon/product-select, url=https://agentseller.temu.com/newon/product-select]
                 text "上新生命周期管理"
-              anchor [ref=2541, loc=href:/newon/invite-bids/list, url=https://agentseller.temu.com/newon/invite-bids/list]
+              anchor [ref=392, loc=href:/newon/invite-bids/list, url=https://agentseller.temu.com/newon/invite-bids/list]
                 text "机会商品"
-              anchor [ref=2542, loc=href:/goods/bonded, url=https://agentseller.temu.com/goods/bonded]
+              anchor [ref=393, loc=href:/goods/bonded, url=https://agentseller.temu.com/goods/bonded]
                 text "保税商品管理"
-              anchor [ref=2543, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=394, url=https://agentseller.temu.com/goods/list]
                 text "商品价格申报"
-              anchor [ref=2544, loc=href:/newon/compete-manager, url=https://agentseller.temu.com/newon/compete-manager]
+              anchor [ref=395, loc=href:/newon/compete-manager, url=https://agentseller.temu.com/newon/compete-manager]
                 text "商品价格管理"
-              anchor [ref=2545, loc=href:/material/image-task, url=https://agentseller.temu.com/material/image-task]
+              anchor [ref=396, loc=href:/material/image-task, url=https://agentseller.temu.com/material/image-task]
                 text "图片/视频更新任务"
-              anchor [ref=2546, loc=href:/material/guide/list, url=https://agentseller.temu.com/material/guide/list]
+              anchor [ref=397, loc=href:/material/guide/list, url=https://agentseller.temu.com/material/guide/list]
                 text "商品说明书制作工具"
-              anchor [ref=2547, loc=href:https://seller.kuajingmaihuo.com/main/sample-manage, url=https://seller.kuajingmaihuo.com/main/sample-manage]
+              anchor [ref=398, loc=href:https://seller.kuajingmaihuo.com/main/sample-manage, url=https://seller.kuajingmaihuo.com/main/sample-manage]
                 text "样品管理"
-              anchor [ref=2548, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=399, url=https://agentseller.temu.com/goods/list]
                 text "尺码/版型管理"
-              anchor [ref=2549, loc=href:/sample/clothing-set, url=https://agentseller.temu.com/sample/clothing-set]
+              anchor [ref=400, loc=href:/sample/clothing-set, url=https://agentseller.temu.com/sample/clothing-set]
                 text "套版组管理"
-              anchor [ref=2550, url=https://agentseller.temu.com/goods/list]
+              anchor [ref=401, url=https://agentseller.temu.com/goods/list]
                 text "模特信息模版"
-              anchor [ref=2551, loc=href:/main/customize-goods, url=https://agentseller.temu.com/main/customize-goods]
+              anchor [ref=402, loc=href:/main/customize-goods, url=https://agentseller.temu.com/main/customize-goods]
                 text "定制商品内容"
-              anchor [ref=2552, loc=href:/main/sample-return, url=https://agentseller.temu.com/main/sample-return]
+              anchor [ref=403, loc=href:/main/sample-return, url=https://agentseller.temu.com/main/sample-return]
                 text "拍摄退样管理"
-              anchor [ref=2553, loc=href:/open/service/graph/task, url=https://agentseller.temu.com/open/service/graph/task]
+              anchor [ref=404, loc=href:/open/service/graph/task, url=https://agentseller.temu.com/open/service/graph/task]
                 text "拍摄精修任务"
-              anchor [ref=2554, loc=href:/goods/retrieval-board, url=https://agentseller.temu.com/goods/retrieval-board]
+              anchor [ref=405, loc=href:/goods/retrieval-board, url=https://agentseller.temu.com/goods/retrieval-board]
                 text "美国商品销售管理"
-              anchor [ref=2555, loc=href:/goods/recommended-retail-price, url=https://agentseller.temu.com/goods/recommended-retail-price]
+              anchor [ref=406, url=https://agentseller.temu.com/goods/recommended-retail-price]
                 text "建议零售价合规中心"
-              anchor [ref=2556, loc=href:/newon/hot-prop-plan-home, url=https://agentseller.temu.com/newon/hot-prop-plan-home]
+              anchor [ref=407, loc=href:/newon/hot-prop-plan-home, url=https://agentseller.temu.com/newon/hot-prop-plan-home]
                 text "爆款扶持计划"
-          anchor [ref=2557, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=408, url=https://agentseller.temu.com/goods/list]
             image
               svg_root
             text "素材管理"
             svg_root
-          anchor [ref=2558, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=409, url=https://agentseller.temu.com/goods/list]
             image
               svg_root
             text "质量管理"
             svg_root
-          anchor [ref=2559, url=https://agentseller.temu.com/goods/list]
-            image
-              svg_root
+          anchor [ref=410, url=https://agentseller.temu.com/goods/list]
+            svg_root
             text "经营分析"
             svg_root
-          anchor [ref=2560, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=411, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "店铺营销"
             text "黑五钜惠"
             svg_root
-          anchor [ref=2561, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=412, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "账户资金"
             svg_root
-          anchor [ref=2562, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=413, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "店铺管理"
             text "NEW"
             svg_root
-          anchor [ref=2563, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=414, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "评价管理"
             svg_root
-          anchor [ref=2564, loc=href:/main/aftersales/information, url=https://agentseller.temu.com/main/aftersales/information]
+          anchor [ref=415, loc=href:/main/aftersales/information, url=https://agentseller.temu.com/main/aftersales/information]
             svg_root
             text "售后管理"
-          anchor [ref=2565, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=416, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "客服中心"
             svg_root
-          anchor [ref=2566, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=417, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "服务市场"
             svg_root
-          anchor [ref=2567, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=418, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "合规服务"
             svg_root
-          anchor [ref=2568, loc=href:https://ads.temu.com/index.html?adAreaOverride=2&source=2&seller_source=11, url=https://ads.temu.com/index.html?adAreaOverride=2&source=2&seller_source=11]
+          anchor [ref=419, loc=href:https://ads.temu.com/index.html?adAreaOverride=2&source=2&seller_source=11, url=https://ads.temu.com/index.html?adAreaOverride=2&source=2&seller_source=11]
             svg_root
             text "商品推广"
             text "NEW"
-          anchor [ref=2569, url=https://agentseller.temu.com/goods/list]
+          anchor [ref=420, url=https://agentseller.temu.com/goods/list]
             svg_root
             text "市场拓展模式"
             svg_root
         image
-      container [ref=2570]
+      container [ref=421]
         container
           container
             text "商品列表"
             text "全球"
           container
-            anchor [ref=2571]
+            anchor [ref=422]
               image
               text "全球"
-            anchor [ref=2572]
+            anchor [ref=423]
               image
               text "美国"
-            anchor [ref=2573]
+            anchor [ref=424]
               image
               text "欧区"
-            anchor [ref=2574]
+            anchor [ref=425]
               image
               text "商家中心"
         form
@@ -243,7 +240,7 @@ root
             text "您对"
             text "商品列表"
             text "的满意度评分"
-            anchor [ref=2575]
+            anchor [ref=426]
               svg_root
           container
             table
@@ -279,7 +276,7 @@ root
                     text "783"
                     text "个商品实拍图待上传或有异常，请尽快处理,"
                     text "否则无法发货。"
-                    anchor [ref=2576]
+                    anchor [ref=427]
                       text "前往处理"
                 container
                   container
@@ -311,7 +308,7 @@ root
                       container
                         text "10"
                         svg_root
-                  anchor [ref=2577]
+                  anchor [ref=428]
                     text "查看全部任务"
                 container
                   text "快速筛选"
@@ -344,45 +341,45 @@ root
                   container
                     text "商品ID查询"
                     container
-                      container [ref=2578]
-                        container [ref=2579]
-                          textbox [ref=2580]
+                      container [ref=429]
+                        container [ref=430]
+                          textbox [ref=431]
                             text "SKC"
                           svg_root
-                      textbox [ref=2581]
+                      textbox [ref=432]
                         text "多个查询请空格或逗号依次输入"
                   container
                     text "商品属性"
                     container
-                      container [ref=2582]
-                        container [ref=2583]
-                          textbox [ref=2584]
+                      container [ref=433]
+                        container [ref=434]
+                          textbox [ref=435]
                             text "包含"
                           svg_root
-                      textbox [ref=2585, loc=css:input[placeholder="请输入属性名称"]]
+                      textbox [ref=436, loc=css:input[placeholder="请输入属性名称"]]
                         text "请输入属性名称"
                   container
                     text "货号"
                     container
-                      container [ref=2586]
-                        container [ref=2587]
-                          textbox [ref=2588]
+                      container [ref=437]
+                        container [ref=438]
+                          textbox [ref=439]
                             text "SKU(精准查询)"
                           svg_root
-                      textbox [ref=2589]
+                      textbox [ref=440]
                         text "多个查询请空格或逗号依次输入"
                   container
                     text "商品名称"
-                    textbox [ref=2590]
+                    textbox [ref=441]
                       text "请输入"
                   container
                     text "商品分类"
-                    textbox [ref=2591]
+                    textbox [ref=442]
                       text "请选择"
                   container
-                    button [ref=2592]
+                    button [ref=443]
                       text "查询"
-                    button [ref=2593]
+                    button [ref=444]
                       text "重置"
                     container
                       text "展开"
@@ -401,170 +398,168 @@ root
                     table_cell
               container
                 text "↑ 发现新版本，点击查看"
+                image
+                svg_root
+                text "提示：默认获取当前筛选条件下数据，如要筛选数据，请在官方筛选位置进行筛选，点击「查询」后再进行功能按钮操作~"
                 container
+                  text "批量上架商品"
                   image
-                  container
-                    svg_root
-                    text "提示：默认获取当前筛选条件下数据，如要筛选数据，请在官方筛选位置进行筛选，点击「查询」后再进行功能按钮操作~"
                 container
-                  container
-                    text "批量上架商品"
-                    image
-                  container
-                    text "导出重复检测商品数据"
-                    image
-                  text "去待办任务操作更多功能"
-                  container
-                    text "导出商品列表数据"
-                    image
-                  container
-                    text "导出 ID"
-                    image
-                  container
-                    text "批量删除商品"
-                    image
-                  container
-                    text "批量恢复商品"
-                    image
-                  container
-                    text "批量设置商品产地"
-                    image
-                  container
-                    text "批量设置商品敏感属性"
-                    image
-                  container
-                    text "批量设置商品品牌"
-                    image
-                  container
-                    text "批量设置商品尺码表"
-                    image
-                  container
-                    text "批量开通JIT"
-                    image
-                  container
-                    text "一键设置库存（JIT专用）"
-                    image
-                  container
-                    text "按当页设置库存（JIT专用）"
-                    image
-                  container
-                    text "一键设置库存（定制品专用）"
-                    image
-                  container
-                    text "按当页设置库存（定制品专用）"
-                    image
-                  container
-                    text "批量修改商品外包装"
-                    image
-                  container
-                    text "店铺搬家"
-                    image
-                  container
-                    text "说明书批量上传"
-                    image
-                  container
-                    text "批量设置商品体积"
-                    image
-                  container
-                    text "批量发布站点"
-                    image
-                  container
-                    text "批量商品下架"
-                    image
-                  container
-                    text "批量刷新SKU价格"
-                    image
-                  container
-                    text "批量修改SKU分类"
-                    image
-                  container
-                    text "批量修改商品名称"
-                    image
-                  container
-                    text "批量修改英文名称"
-                    image
-                  container
-                    text "批量修改货号"
-                    image
-                  container
-                    text "批量修改商品属性"
-                    image
-                  container
-                    text "批量制作纸质说明书"
-                    image
-                  container
-                    text "批量关联套版组"
-                    image
-                  container
-                    text "批量维护定制模板信息"
-                    image
-                  container
-                    text "批量上架(新)"
-                    image
-                  container
-                    text "导出商品详情(文件夹)"
-                    image
-                  container
-                    text "批量维护尺码表"
-                    image
-                  container
-                    text "批量关闭JIT"
-                    image
-              container [ref=2594]
-                text "全部 8162"
-                text "在售中 306"
-                text "未发布到站点 6897"
-                text "已下架/已终止 959"
-                text "已删除 0"
+                  text "导出重复检测商品数据"
+                  image
+                text "去待办任务操作更多功能"
                 container
-                  anchor [ref=2595]
+                  text "导出商品列表数据"
+                  image
+                container
+                  text "导出 ID"
+                  image
+                container
+                  text "批量删除商品"
+                  image
+                container
+                  text "批量恢复商品"
+                  image
+                container
+                  text "批量设置商品产地"
+                  image
+                container
+                  text "批量设置商品敏感属性"
+                  image
+                container
+                  text "批量设置商品品牌"
+                  image
+                container
+                  text "批量设置商品尺码表"
+                  image
+                container
+                  text "批量开通JIT"
+                  image
+                container
+                  text "一键设置库存（JIT专用）"
+                  image
+                container
+                  text "按当页设置库存（JIT专用）"
+                  image
+                container
+                  text "一键设置库存（定制品专用）"
+                  image
+                container
+                  text "按当页设置库存（定制品专用）"
+                  image
+                container
+                  text "批量修改商品外包装"
+                  image
+                container
+                  text "批量关闭JIT"
+                  image
+                container
+                  text "店铺搬家"
+                  image
+                container
+                  text "导出商品详情(文件夹)"
+                  image
+                container
+                  text "说明书批量上传"
+                  image
+                container
+                  text "批量设置商品体积"
+                  image
+                container
+                  text "批量发布站点"
+                  image
+                container
+                  text "批量商品下架"
+                  image
+                container
+                  text "批量刷新SKU价格"
+                  image
+                container
+                  text "批量修改SKU分类"
+                  image
+                container
+                  text "批量修改商品名称"
+                  image
+                container
+                  text "批量修改英文名称"
+                  image
+                container
+                  text "批量修改货号"
+                  image
+                container
+                  text "批量修改商品属性"
+                  image
+                container
+                  text "批量制作纸质说明书"
+                  image
+                container
+                  text "批量关联套版组"
+                  image
+                container
+                  text "批量维护定制模板信息"
+                  image
+                container
+                  text "批量上架(新)"
+                  image
+                container
+                  text "批量维护尺码表"
+                  image
+              container [ref=445]
+                container
+                  text "全部 8162"
+                  text "在售中 300"
+                  text "未发布到站点 6894"
+                  text "已下架/已终止 968"
+                  text "已删除 0"
+                container
+                  anchor [ref=446]
                     text "开通跨主体一键搬品"
-                  anchor [ref=2596]
+                  anchor [ref=447]
                     text "草稿箱(968)"
-                  anchor [ref=2597]
+                  anchor [ref=448]
                     text "挑选机会商品发布"
-                  anchor [ref=2598]
+                  anchor [ref=449]
                     text "商品新建教程"
-                  anchor [ref=2599]
+                  anchor [ref=450]
                     text "尺码表维护教程"
-                  anchor [ref=2600]
+                  anchor [ref=451]
                     text "定制模版维护"
-              button [ref=2601]
+              button [ref=452]
                 image
                 text "一键搬运商品"
                 text "领权益"
-              button [ref=2602]
+              button [ref=453]
                 svg_root
                 text "新建商品"
-              button [ref=2603]
+              button [ref=454]
                 text "下载查询结果"
                 text "8162"
-              button [ref=2604]
+              button [ref=455]
                 text "批量删除"
-              button [ref=2605]
+              button [ref=456]
                 text "更多"
                 svg_root
-              button [ref=2606]
+              button [ref=457]
                 text "【忆托工具箱】批量商品申请"
-              button [ref=2607]
+              button [ref=458]
                 text "【忆托工具箱】导出商品列表"
               text "单日发品额度"
               text "0/400"
               text "搬运/新增进度"
               text "0"
               text "%"
-              anchor [ref=2608]
+              anchor [ref=459]
                 svg_root
               container
                 svg_root
                 text "待搬运"
                 text "0"
             container
-              container [ref=2609]
+              container [ref=460]
                 table
                   table_row
                     table_cell
-                      checkbox [ref=2610]
+                      checkbox [ref=461]
                       svg_root
                     table_cell
                       text "商品信息"
@@ -618,11 +613,11 @@ root
                       text "今日合计"
                     table_cell
                       text "7天销量"
-              container [ref=2611]
+              container [ref=462]
                 table
                   table_row
                     table_cell
-                      checkbox [ref=2612]
+                      checkbox [ref=463]
                       svg_root
                     table_cell
                       text "可定制个性化派对腕带，一次性丝带手环，会议活动入场签到年会腕带，性化姓名文字ID腕带，适用于活动、生日、婚礼、团体聚会、音乐节和演唱会，..."
@@ -648,10 +643,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2613]
+                      anchor [ref=464]
                         text "更新"
                     table_cell
-                      anchor [ref=2614]
+                      anchor [ref=465]
                         text "去制作"
                     table_cell
                       text "42596773074"
@@ -667,7 +662,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2615]
+                      anchor [ref=466]
                         svg_root
                     table_cell
                       text "-"
@@ -705,15 +700,15 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2616]
+                      anchor [ref=467]
                         text "编辑"
-                      anchor [ref=2617]
+                      anchor [ref=468]
                         text "维护货号"
-                      anchor [ref=2618]
+                      anchor [ref=469]
                         text "修改定制信息"
-                      anchor [ref=2619]
+                      anchor [ref=470]
                         text "申请修改信息"
-                      anchor [ref=2620]
+                      anchor [ref=471]
                         text "删除"
                   table_row
                     table_cell
@@ -730,7 +725,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2621]
+                      anchor [ref=472]
                         svg_root
                     table_cell
                       text "-"
@@ -774,7 +769,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2622]
+                      anchor [ref=473]
                         svg_root
                     table_cell
                       text "-"
@@ -818,7 +813,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2623]
+                      anchor [ref=474]
                         svg_root
                     table_cell
                       text "-"
@@ -862,7 +857,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2624]
+                      anchor [ref=475]
                         svg_root
                     table_cell
                       text "-"
@@ -893,14 +888,14 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2625]
+                      anchor [ref=476]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2626]
+                      checkbox [ref=477]
                       svg_root
                     table_cell
                       text "可定制身份识别腕带 VIP医院和医疗证件、P入场活动演唱会个人化文本和Logo设计派对音乐会用于活动入场腕带派对演唱会，多色可选（白色卡扣）"
@@ -926,10 +921,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2627]
+                      anchor [ref=478]
                         text "更新"
                     table_cell
-                      anchor [ref=2628]
+                      anchor [ref=479]
                         text "去制作"
                     table_cell
                       text "62691700160"
@@ -945,7 +940,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2629]
+                      anchor [ref=480]
                         svg_root
                     table_cell
                       text "-"
@@ -983,15 +978,15 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2630]
+                      anchor [ref=481]
                         text "编辑"
-                      anchor [ref=2631]
+                      anchor [ref=482]
                         text "维护货号"
-                      anchor [ref=2632]
+                      anchor [ref=483]
                         text "修改定制信息"
-                      anchor [ref=2633]
+                      anchor [ref=484]
                         text "申请修改信息"
-                      anchor [ref=2634]
+                      anchor [ref=485]
                         text "删除"
                   table_row
                     table_cell
@@ -1008,7 +1003,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2635]
+                      anchor [ref=486]
                         svg_root
                     table_cell
                       text "-"
@@ -1052,7 +1047,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2636]
+                      anchor [ref=487]
                         svg_root
                     table_cell
                       text "-"
@@ -1096,7 +1091,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2637]
+                      anchor [ref=488]
                         svg_root
                     table_cell
                       text "-"
@@ -1140,7 +1135,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2638]
+                      anchor [ref=489]
                         svg_root
                     table_cell
                       text "-"
@@ -1171,14 +1166,14 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2639]
+                      anchor [ref=490]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2640]
+                      checkbox [ref=491]
                       svg_root
                     table_cell
                       text "定制一次性身份参与者手环，配有安全的快扣闭合 - 适用于婚礼、活动、运动比赛和团体派对，多彩的展览活动，适合节日派对的多人聚会手环，音乐�..."
@@ -1204,10 +1199,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2641]
+                      anchor [ref=492]
                         text "更新"
                     table_cell
-                      anchor [ref=2642]
+                      anchor [ref=493]
                         text "去制作"
                     table_cell
                       text "51232722193"
@@ -1222,7 +1217,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2643]
+                      anchor [ref=494]
                         svg_root
                     table_cell
                       text "-"
@@ -1260,15 +1255,15 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2644]
+                      anchor [ref=495]
                         text "编辑"
-                      anchor [ref=2645]
+                      anchor [ref=496]
                         text "维护货号"
-                      anchor [ref=2646]
+                      anchor [ref=497]
                         text "填写定制信息"
-                      anchor [ref=2647]
+                      anchor [ref=498]
                         text "申请修改信息"
-                      anchor [ref=2648]
+                      anchor [ref=499]
                         text "删除"
                   table_row
                     table_cell
@@ -1284,7 +1279,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2649]
+                      anchor [ref=500]
                         svg_root
                     table_cell
                       text "-"
@@ -1327,7 +1322,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2650]
+                      anchor [ref=501]
                         svg_root
                     table_cell
                       text "-"
@@ -1370,7 +1365,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2651]
+                      anchor [ref=502]
                         svg_root
                     table_cell
                       text "-"
@@ -1413,7 +1408,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2652]
+                      anchor [ref=503]
                         svg_root
                     table_cell
                       text "-"
@@ -1444,288 +1439,14 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2653]
+                      anchor [ref=504]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2654]
-                      svg_root
-                    table_cell
-                      text "黑白素描花卉情侣牛仔靴婚礼餐巾，可定制新人首字母婚期田园户外婚宴摆盘纸巾，简约线稿西部对靴婚宴纸巾，郊外露营田园婚礼干净治愈拍照餐巾�..."
-                      text "类目："
-                      text "身份腕带"
-                      text "SPU ID"
-                      text "："
-                      text "7742373077"
-                      text "SKC ID"
-                      text "："
-                      text "24635106184"
-                      text "货号："
-                      text "-"
-                      container
-                        svg_root
-                        text "商品分类错误待修正"
-                      container
-                        text "定制商品"
-                        svg_root
-                      image
-                      text "点击复制商品id"
-                      text "跳转商品前端（需梯子）"
-                      text "保存商品上架模板到 ERP"
-                    table_cell
-                      text "主体材质：涤纶（聚酯纤维）"
-                    table_cell
-                      text "-"
-                    table_cell
-                      anchor [ref=2655]
-                        text "更新"
-                    table_cell
-                      anchor [ref=2656]
-                        text "去制作"
-                    table_cell
-                      text "19978742532"
-                    table_cell
-                      text "颜色"
-                      text "："
-                      text "红色"
-                      text "数量"
-                      text "："
-                      text "24 pcs"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "展示"
-                      anchor [ref=2657]
-                        svg_root
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "体积："
-                      text "25cm*15cm*10cm"
-                      text "重量："
-                      text "75g"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "非敏感品"
-                      svg_root
-                      text "状态"
-                      text "："
-                      text "待提交"
-                    table_cell
-                      text "单品"
-                      text "单品数量："
-                      text "1"
-                      text "件"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "¥"
-                      text "115.24"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "2026-08-26 14:39:42"
-                    table_cell
-                      text "暂无推荐"
-                    table_cell
-                      anchor [ref=2658]
-                        text "编辑"
-                      anchor [ref=2659]
-                        text "维护货号"
-                      anchor [ref=2660]
-                        text "填写定制信息"
-                      anchor [ref=2661]
-                        text "删除"
-                  table_row
-                    table_cell
-                      text "85617462735"
-                    table_cell
-                      text "颜色"
-                      text "："
-                      text "红色"
-                      text "数量"
-                      text "："
-                      text "52 pcs"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "展示"
-                      anchor [ref=2662]
-                        svg_root
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "体积："
-                      text "25cm*15cm*10cm"
-                      text "重量："
-                      text "150g"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "非敏感品"
-                      svg_root
-                      text "状态"
-                      text "："
-                      text "待提交"
-                    table_cell
-                      text "单品"
-                      text "单品数量："
-                      text "1"
-                      text "件"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "¥"
-                      text "190.96"
-                    table_cell
-                      text "-"
-                  table_row
-                    table_cell
-                      text "22624381675"
-                    table_cell
-                      text "颜色"
-                      text "："
-                      text "红色"
-                      text "数量"
-                      text "："
-                      text "101 pcs"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "展示"
-                      anchor [ref=2663]
-                        svg_root
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "体积："
-                      text "25cm*15cm*10cm"
-                      text "重量："
-                      text "375g"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "非敏感品"
-                      svg_root
-                      text "状态"
-                      text "："
-                      text "待提交"
-                    table_cell
-                      text "单品"
-                      text "单品数量："
-                      text "1"
-                      text "件"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "¥"
-                      text "285.29"
-                    table_cell
-                      text "-"
-                  table_row
-                    table_cell
-                      text "36662478362"
-                    table_cell
-                      text "颜色"
-                      text "："
-                      text "蓝色"
-                      text "数量"
-                      text "："
-                      text "24 pcs"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "展示"
-                      anchor [ref=2664]
-                        svg_root
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "体积："
-                      text "25cm*15cm*10cm"
-                      text "重量："
-                      text "75g"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "非敏感品"
-                      svg_root
-                      text "状态"
-                      text "："
-                      text "待提交"
-                    table_cell
-                      text "单品"
-                      text "单品数量："
-                      text "1"
-                      text "件"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "¥"
-                      text "115.24"
-                    table_cell
-                      text "-"
-                  table_row
-                    table_cell
-                      text "97107654957"
-                    table_cell
-                      text "颜色"
-                      text "："
-                      text "蓝色"
-                      text "数量"
-                      text "："
-                      text "52 pcs"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "展示"
-                      anchor [ref=2665]
-                        svg_root
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "体积："
-                      text "25cm*15cm*10cm"
-                      text "重量："
-                      text "150g"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "非敏感品"
-                      svg_root
-                      text "状态"
-                      text "："
-                      text "待提交"
-                    table_cell
-                      text "单品"
-                      text "单品数量："
-                      text "1"
-                      text "件"
-                    table_cell
-                      text "-"
-                    table_cell
-                      text "¥"
-                      text "190.96"
-                    table_cell
-                      text "-"
-                  table_row
-                    table_cell
-                      anchor [ref=2666]
-                        text "展开剩余"
-                        text "25"
-                        text "个"
-                        svg_root
-                  table_row
-                    table_cell
-                      checkbox [ref=2667]
+                      checkbox [ref=505]
                       svg_root
                     table_cell
                       text "水彩蓝蝴蝶结金色十字架婴儿洗礼餐巾，宝宝受洗宴甜品台装饰纸巾，自定义宝贝姓名生辰教堂洗礼宴会桌面纸巾，儿童受洗仪式、宝宝答谢宴氛围感�..."
@@ -1754,10 +1475,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2668]
+                      anchor [ref=506]
                         text "更新"
                     table_cell
-                      anchor [ref=2669]
+                      anchor [ref=507]
                         text "去制作"
                     table_cell
                       text "59942241814"
@@ -1772,7 +1493,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2670]
+                      anchor [ref=508]
                         svg_root
                     table_cell
                       text "-"
@@ -1810,13 +1531,13 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2671]
+                      anchor [ref=509]
                         text "编辑"
-                      anchor [ref=2672]
+                      anchor [ref=510]
                         text "维护货号"
-                      anchor [ref=2673]
+                      anchor [ref=511]
                         text "填写定制信息"
-                      anchor [ref=2674]
+                      anchor [ref=512]
                         text "删除"
                   table_row
                     table_cell
@@ -1832,7 +1553,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2675]
+                      anchor [ref=513]
                         svg_root
                     table_cell
                       text "-"
@@ -1875,7 +1596,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2676]
+                      anchor [ref=514]
                         svg_root
                     table_cell
                       text "-"
@@ -1918,7 +1639,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2677]
+                      anchor [ref=515]
                         svg_root
                     table_cell
                       text "-"
@@ -1961,7 +1682,7 @@ root
                       text "-"
                     table_cell
                       text "展示"
-                      anchor [ref=2678]
+                      anchor [ref=516]
                         svg_root
                     table_cell
                       text "-"
@@ -1992,14 +1713,288 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2679]
+                      anchor [ref=517]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2680]
+                      checkbox [ref=518]
+                      svg_root
+                    table_cell
+                      text "黑白素描花卉情侣牛仔靴婚礼餐巾，可定制新人首字母婚期田园户外婚宴摆盘纸巾，简约线稿西部对靴婚宴纸巾，郊外露营田园婚礼干净治愈拍照餐巾�..."
+                      text "类目："
+                      text "身份腕带"
+                      text "SPU ID"
+                      text "："
+                      text "7742373077"
+                      text "SKC ID"
+                      text "："
+                      text "24635106184"
+                      text "货号："
+                      text "-"
+                      container
+                        svg_root
+                        text "商品分类错误待修正"
+                      container
+                        text "定制商品"
+                        svg_root
+                      image
+                      text "点击复制商品id"
+                      text "跳转商品前端（需梯子）"
+                      text "保存商品上架模板到 ERP"
+                    table_cell
+                      text "主体材质：涤纶（聚酯纤维）"
+                    table_cell
+                      text "-"
+                    table_cell
+                      anchor [ref=519]
+                        text "更新"
+                    table_cell
+                      anchor [ref=520]
+                        text "去制作"
+                    table_cell
+                      text "19978742532"
+                    table_cell
+                      text "颜色"
+                      text "："
+                      text "红色"
+                      text "数量"
+                      text "："
+                      text "24 pcs"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "展示"
+                      anchor [ref=521]
+                        svg_root
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "体积："
+                      text "25cm*15cm*10cm"
+                      text "重量："
+                      text "75g"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "非敏感品"
+                      svg_root
+                      text "状态"
+                      text "："
+                      text "待提交"
+                    table_cell
+                      text "单品"
+                      text "单品数量："
+                      text "1"
+                      text "件"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "¥"
+                      text "115.24"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "2026-08-26 14:39:42"
+                    table_cell
+                      text "暂无推荐"
+                    table_cell
+                      anchor [ref=522]
+                        text "编辑"
+                      anchor [ref=523]
+                        text "维护货号"
+                      anchor [ref=524]
+                        text "填写定制信息"
+                      anchor [ref=525]
+                        text "删除"
+                  table_row
+                    table_cell
+                      text "85617462735"
+                    table_cell
+                      text "颜色"
+                      text "："
+                      text "红色"
+                      text "数量"
+                      text "："
+                      text "52 pcs"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "展示"
+                      anchor [ref=526]
+                        svg_root
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "体积："
+                      text "25cm*15cm*10cm"
+                      text "重量："
+                      text "150g"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "非敏感品"
+                      svg_root
+                      text "状态"
+                      text "："
+                      text "待提交"
+                    table_cell
+                      text "单品"
+                      text "单品数量："
+                      text "1"
+                      text "件"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "¥"
+                      text "190.96"
+                    table_cell
+                      text "-"
+                  table_row
+                    table_cell
+                      text "22624381675"
+                    table_cell
+                      text "颜色"
+                      text "："
+                      text "红色"
+                      text "数量"
+                      text "："
+                      text "101 pcs"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "展示"
+                      anchor [ref=527]
+                        svg_root
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "体积："
+                      text "25cm*15cm*10cm"
+                      text "重量："
+                      text "375g"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "非敏感品"
+                      svg_root
+                      text "状态"
+                      text "："
+                      text "待提交"
+                    table_cell
+                      text "单品"
+                      text "单品数量："
+                      text "1"
+                      text "件"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "¥"
+                      text "285.29"
+                    table_cell
+                      text "-"
+                  table_row
+                    table_cell
+                      text "36662478362"
+                    table_cell
+                      text "颜色"
+                      text "："
+                      text "蓝色"
+                      text "数量"
+                      text "："
+                      text "24 pcs"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "展示"
+                      anchor [ref=528]
+                        svg_root
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "体积："
+                      text "25cm*15cm*10cm"
+                      text "重量："
+                      text "75g"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "非敏感品"
+                      svg_root
+                      text "状态"
+                      text "："
+                      text "待提交"
+                    table_cell
+                      text "单品"
+                      text "单品数量："
+                      text "1"
+                      text "件"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "¥"
+                      text "115.24"
+                    table_cell
+                      text "-"
+                  table_row
+                    table_cell
+                      text "97107654957"
+                    table_cell
+                      text "颜色"
+                      text "："
+                      text "蓝色"
+                      text "数量"
+                      text "："
+                      text "52 pcs"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "展示"
+                      anchor [ref=529]
+                        svg_root
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "体积："
+                      text "25cm*15cm*10cm"
+                      text "重量："
+                      text "150g"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "非敏感品"
+                      svg_root
+                      text "状态"
+                      text "："
+                      text "待提交"
+                    table_cell
+                      text "单品"
+                      text "单品数量："
+                      text "1"
+                      text "件"
+                    table_cell
+                      text "-"
+                    table_cell
+                      text "¥"
+                      text "190.96"
+                    table_cell
+                      text "-"
+                  table_row
+                    table_cell
+                      anchor [ref=530]
+                        text "展开剩余"
+                        text "25"
+                        text "个"
+                        svg_root
+                  table_row
+                    table_cell
+                      checkbox [ref=531]
                       svg_root
                     table_cell
                       text "【定制品】高级个性化定制 身份腕带 手环腕带，可支持定制彩色印刷、图案、logo等，适用于音乐会入场、会议、足球俱乐部、酒吧派对、门票ID识别，..."
@@ -2026,10 +2021,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2681]
+                      anchor [ref=532]
                         text "更新"
                     table_cell
-                      anchor [ref=2682]
+                      anchor [ref=533]
                         text "去制作"
                     table_cell
                       text "71126568044"
@@ -2045,7 +2040,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2683]
+                      anchor [ref=534]
                         svg_root
                     table_cell
                       text "-"
@@ -2083,13 +2078,13 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2684]
+                      anchor [ref=535]
                         text "编辑"
-                      anchor [ref=2685]
+                      anchor [ref=536]
                         text "维护货号"
-                      anchor [ref=2686]
+                      anchor [ref=537]
                         text "修改定制信息"
-                      anchor [ref=2687]
+                      anchor [ref=538]
                         text "申请修改信息"
                   table_row
                     table_cell
@@ -2106,7 +2101,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2688]
+                      anchor [ref=539]
                         svg_root
                     table_cell
                       text "-"
@@ -2150,7 +2145,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2689]
+                      anchor [ref=540]
                         svg_root
                     table_cell
                       text "-"
@@ -2194,7 +2189,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2690]
+                      anchor [ref=541]
                         svg_root
                     table_cell
                       text "-"
@@ -2238,7 +2233,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2691]
+                      anchor [ref=542]
                         svg_root
                     table_cell
                       text "-"
@@ -2269,14 +2264,14 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2692]
+                      anchor [ref=543]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2693]
+                      checkbox [ref=544]
                       svg_root
                     table_cell
                       text "【定制】带黑色卡扣的一次性彩色手环腕带，图片定制涤纶身份腕带，适用于电音节，演唱会，大型演出，体育赛事参与者身份腕带，酒会，婚礼，多�..."
@@ -2302,10 +2297,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2694]
+                      anchor [ref=545]
                         text "更新"
                     table_cell
-                      anchor [ref=2695]
+                      anchor [ref=546]
                         text "去制作"
                     table_cell
                       text "59631004977"
@@ -2321,7 +2316,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2696]
+                      anchor [ref=547]
                         svg_root
                     table_cell
                       text "-"
@@ -2359,15 +2354,15 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2697]
+                      anchor [ref=548]
                         text "编辑"
-                      anchor [ref=2698]
+                      anchor [ref=549]
                         text "维护货号"
-                      anchor [ref=2699]
+                      anchor [ref=550]
                         text "修改定制信息"
-                      anchor [ref=2700]
+                      anchor [ref=551]
                         text "申请修改信息"
-                      anchor [ref=2701]
+                      anchor [ref=552]
                         text "删除"
                   table_row
                     table_cell
@@ -2384,7 +2379,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2702]
+                      anchor [ref=553]
                         svg_root
                     table_cell
                       text "-"
@@ -2428,7 +2423,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2703]
+                      anchor [ref=554]
                         svg_root
                     table_cell
                       text "-"
@@ -2472,7 +2467,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2704]
+                      anchor [ref=555]
                         svg_root
                     table_cell
                       text "-"
@@ -2516,7 +2511,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2705]
+                      anchor [ref=556]
                         svg_root
                     table_cell
                       text "-"
@@ -2547,14 +2542,14 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2706]
+                      anchor [ref=557]
                         text "展开剩余"
                         text "25"
                         text "个"
                         svg_root
                   table_row
                     table_cell
-                      checkbox [ref=2707]
+                      checkbox [ref=558]
                       svg_root
                     table_cell
                       text "定制一次性ID腕带，设计简单多样，适合活动纪念，佩戴舒适且亲肤，成本低且易于分发。采用柔软的缎面材料，适合温暖的慈善活动氛围。"
@@ -2580,10 +2575,10 @@ root
                     table_cell
                       text "-"
                     table_cell
-                      anchor [ref=2708]
+                      anchor [ref=559]
                         text "更新"
                     table_cell
-                      anchor [ref=2709]
+                      anchor [ref=560]
                         text "去制作"
                     table_cell
                       text "84185890797"
@@ -2599,7 +2594,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2710]
+                      anchor [ref=561]
                         svg_root
                     table_cell
                       text "-"
@@ -2637,15 +2632,15 @@ root
                     table_cell
                       text "暂无推荐"
                     table_cell
-                      anchor [ref=2711]
+                      anchor [ref=562]
                         text "编辑"
-                      anchor [ref=2712]
+                      anchor [ref=563]
                         text "维护货号"
-                      anchor [ref=2713]
+                      anchor [ref=564]
                         text "修改定制信息"
-                      anchor [ref=2714]
+                      anchor [ref=565]
                         text "申请修改信息"
-                      anchor [ref=2715]
+                      anchor [ref=566]
                         text "删除"
                   table_row
                     table_cell
@@ -2662,7 +2657,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2716]
+                      anchor [ref=567]
                         svg_root
                     table_cell
                       text "-"
@@ -2706,7 +2701,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2717]
+                      anchor [ref=568]
                         svg_root
                     table_cell
                       text "-"
@@ -2750,7 +2745,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2718]
+                      anchor [ref=569]
                         svg_root
                     table_cell
                       text "-"
@@ -2794,7 +2789,7 @@ root
                       svg_root
                     table_cell
                       text "展示"
-                      anchor [ref=2719]
+                      anchor [ref=570]
                         svg_root
                     table_cell
                       text "-"
@@ -2825,7 +2820,7 @@ root
                       text "-"
                   table_row
                     table_cell
-                      anchor [ref=2720]
+                      anchor [ref=571]
                         text "展开剩余"
                         text "25"
                         text "个"
@@ -2835,9 +2830,9 @@ root
                 text "共有 8162 条"
               list_item
                 text "每页"
-                container [ref=2721]
-                  container [ref=2722]
-                    textbox [ref=2723]
+                container [ref=572]
+                  container [ref=573]
+                    textbox [ref=574]
                       text "20"
                     svg_root
                 text "条"
@@ -2868,47 +2863,87 @@ root
           container
             container
               svg_root
-              text "6"
-            text "米制可食用薄饼 0811，100片装，20 x 28厘米，白色"
-            button [ref=2724]
+              text "9"
+            text "12片白卡纸黑边袋、手提牛皮纸袋适用于礼品袋、购物袋、外卖包装袋、珠宝包装袋"
+            button [ref=575]
               text "发布同款"
           container
             container
               svg_root
-              text "13"
-            text "每包25张，精美圣诞贺卡，创意圣诞祝福卡，复古风格圣诞贺卡，附手写感谢语，时尚礼品盒装饰卡"
-            button [ref=2725]
+              text "5"
+            text "12个天空飞机球迷主题派对抽绳束口袋-涤纶材质耐用且可重复使用，适合生日,圣诞节,万圣节派对礼物-便携式抽绳背包适合派对礼品袋和糖果袋."
+            button [ref=576]
+              text "发布同款"
+          container
+            container
+              svg_root
+              text "5"
+            text "1件，斋月节月亮装饰摆件，金色，手工制作， 适用于斋月节室内场景布置"
+            button [ref=577]
               text "发布同款"
           container
             container
               svg_root
               text "8"
-            text "140张/套 KPOP韩国女子组合ILLIT成员李元熙、罗允儿创意明星周边贴纸"
-            button [ref=2726]
+            text "1pc Framed Venice Large Wall Art, Gondola Artwork, Canal Canvas Print Wall Painting, Architecture Posters, Vivid Canvas Artwork, Modern Home Decor, Poster, Room Aesthetic, Ideal Gift, For Living Room,..."
+            button [ref=578]
               text "发布同款"
-          container
-            container
-              svg_root
-              text "11"
-            text "16/24张装圣诞贺卡，可爱的卡通企鹅和圣诞树图案纸雕贺卡，空白留言卡，适合作为圣诞节日礼物"
-            button [ref=2727]
-              text "发布同款"
-  button [ref=2728]
+  button [ref=579]
     image
   container
-    switch [ref=2729]
+    switch [ref=580]
     text "弹框已恢复"
   container
     container
-      text "佳同跨境插件提醒"
+      container
+        svg_root
+        text "全部消息"
+        text "99+"
+        svg_root
+        text "一键已读所有消息"
       svg_root
     container
-      text "您当前店铺还有"
-      text "6"
-      text "件商品待确认调价。由于官方规定部分商品在12/24小时内未确认则后台会默认统一同意调价，为保证您不必要的损失，请务必前往商品管理-调价管理-待�..."
-      anchor [ref=2730, loc=href:/main/adjust-price-manage/order-price, url=https://agentseller.temu.com/main/adjust-price-manage/order-price]
-        text "点击前往"
-    text "10分钟后再提醒"
-    text "已读 & 今日不再提示"
+      container
+        text "关务申报属性缺失补充"
+        container
+          text "亲爱的商家："
+          text "您好！由于美国清关要求，您的商品需要补齐商品属性信息，已经影响相关商品备货、导致相关商品从美国站点下架；请您予以重视尽快补齐相关商品�..."
+        container
+          text "14:29"
+          container
+            button [ref=581]
+              text "点击去维护"
+            button [ref=582]
+              text "查看详情"
+            button [ref=583]
+              text "标记为已读"
+      container
+        text "商品建议零售价维护提示"
+        container
+          text "尊敬的商家："
+          text "您存在商品缺少可用的建议零售价信息，请及时前往"
+          anchor [ref=584, url=https://agentseller.temu.com/goods/recommended-retail-price]
+            text "建议零售价中心"
+          text "补充调整，您也可通过点击确认按钮确认使用系统建议参考值。"
+          text "重要提示："
+          text "• 建议零售价信息须真实、准确，不得误导消费者。"
+          text "• 系统将以您确认提交的建议零售价信息为准。 若您在收到本通知后【2】天内未操作，系统将自动暂时采用建议参考值。 您可以随时访问"
+          anchor [ref=585, url=https://agentseller.temu.com/goods/recommended-retail-price]
+            text "建议零售价中心"
+          text "修改、删除、填写或更新建议价信息，系统将以您提交的建议价信息为准。"
+        container
+          text "2026年10月24日"
+          container
+            button [ref=586]
+              text "确认"
+            button [ref=587]
+              text "查看详情"
+            button [ref=588]
+              text "标记为已读"
+  iframe
+    root
+  container
+    image
+    text "展开面板"
 
 ```

@@ -464,13 +464,41 @@ async function main() {
       const leaf = [...document.querySelectorAll("*")].find((e) =>
         e.children.length === 0 && (e.textContent || "").replace(/\s+/g, "").startsWith("商品信息待确认"));
       if (!leaf) return null;
+      // ⚠ 切换热区 = 整个 chip 卡片，必须点卡片中心（点文本中心/角标常不生效，2026-10-25 store-d）
+      let box = leaf.parentElement;
+      for (let k = 0; k < 5 && box; k++) {
+        const r = box.getBoundingClientRect();
+        if (r.width > 60 && r.height > 25) return [r.left + r.width / 2, r.top + r.height / 2];
+        box = box.parentElement;
+      }
       const r = leaf.getBoundingClientRect();
       return [r.left + r.width / 2, r.top + r.height / 2];
     });
     if (chipPos) {
-      await page.mouse.click(chipPos[0], chipPos[1], { label: "取消商品信息待确认筛选" });
-      await sleep(2000);
-      log("→ 已取消「商品信息待确认」筛选");
+      for (let a = 0; a < 2; a++) {
+        await page.mouse.click(chipPos[0], chipPos[1], { label: "取消商品信息待确认筛选" });
+        await sleep(2000);
+        // 视觉校验：勾角标消失（chip 文本行内不再有蓝色选中样式元素）——简化：再查一次蓝勾 SVG/角标
+        const stillChecked = await page.evaluate(() => {
+          const leaf = [...document.querySelectorAll("*")].find((e) =>
+            e.children.length === 0 && (e.textContent || "").replace(/\s+/g, "").startsWith("商品信息待确认"));
+          if (!leaf) return false;
+          let box = leaf.parentElement;
+          for (let k = 0; k < 5 && box; k++) {
+            const r = box.getBoundingClientRect();
+            if (r.width > 60 && r.height > 25) {
+              // 选中态卡片有蓝色边框
+              const bc = getComputedStyle(box).borderColor.match(/rgba?\((\d+), (\d+), (\d+)/);
+              if (bc) { const [r0, g0, b0] = [+bc[1], +bc[2], +bc[3]]; return b0 > 150 && b0 - r0 > 30; }
+              return false;
+            }
+            box = box.parentElement;
+          }
+          return false;
+        });
+        if (!stillChecked) { log("→ 已取消「商品信息待确认」筛选"); break; }
+        log(`  ⚠ 筛选仍勾选（第${a + 1}次点击未生效），重试`);
+      }
     } else {
       log("⚠ 未找到待办筛选 chip（页面结构变化？）");
     }
@@ -511,45 +539,6 @@ async function main() {
     }, skc);
     if (q.err) throw new Error(`查询输入框未找到(${q.err})`);
     if (!q.ok) throw new Error("查询框填写失败");
-
-    if (q.err) throw new Error(`查询输入框未找到(${q.err})`);
-    if (!q.ok) throw new Error("查询框填写失败");
-
-    // ⚠ 页面顶部的待办筛选 chips（商品信息待确认等）勾着时会只显示这些商品——
-    // 用户实测知识：查询其他商品必须取消勾选（2026-10-24 store-b 卡半天）
-    const uncheckedChips = await page.evaluate(() => {
-      const names = ["商品信息待确认", "待激活", "待修改", "待寄样", "审版待调整", "价格待确认", "流量待增长", "资质补贴待领取"];
-      const clicked = [];
-      for (const name of names) {
-        const leaf = [...document.querySelectorAll("*")].find((e) =>
-          e.children.length === 0 && (e.textContent || "").replace(/\s+/g, "").startsWith(name));
-        if (!leaf) continue;
-        // chip 容器：向上找带背景色的盒子，蓝色=选中
-        let box = leaf.parentElement;
-        let clickedFlag = false;
-        for (let k = 0; k < 4 && box; k++) {
-          const bg = getComputedStyle(box).backgroundColor;
-          const m = bg.match(/rgba?\((\d+), (\d+), (\d+)/);
-          if (m) {
-            const [r, g, b] = [+m[1], +m[2], +m[3]];
-            if (b > 180 && b - r > 40) { clickedFlag = true; break; } // 蓝色系=选中
-          }
-          box = box.parentElement;
-        }
-        if (clickedFlag) {
-          const r = leaf.getBoundingClientRect();
-          clicked.push([r.left + r.width / 2, r.top + r.height / 2, name]);
-        }
-      }
-      return clicked;
-    });
-    if (uncheckedChips.length) {
-      log(`→ 取消待办筛选: ${uncheckedChips.map((c) => c[2]).join("、")}`);
-      for (const [x, y] of uncheckedChips) {
-        await page.mouse.click(x, y, { label: "取消待办筛选" }).catch(() => {});
-      }
-      await sleep(2000);
-    }
 
     // 查询按钮必须真实鼠标点击（DOM .click() 实测不触发搜索，2026-10-24）
     if (q.hasBtn) {
