@@ -88,9 +88,11 @@ python3 modules/grind/grind-batch.py <工单.csv> [--limit N]   # 批量调价�
 ## LinkFox API 技能（写操作优先走 API）
 
 技能盘点见 `research/linkfox/linkfox技能全量盘点.md`（原《2026-10-22-店群AI接管
-工作流设计》报告未随 Mac 迁移入库）。**Mac 现状（2026-11-07 确认）：技能未安装、
-CLI 未装、API Key 未配置**——接入时先装 `linkfoxskill` CLI + 技能包，再配
-`LINKFOXAGENT_API_KEY`。要点：
+工作流设计》报告未随 Mac 迁移入库）。**Mac 现状（2026-11-07）：`linkfoxskill` CLI
+已装；定价技能在 `.claude/skills/linkfox-temu-price-us`（CLI 默认装根目录
+`skills/`，需手动挪）；`LINKFOXAGENT_API_KEY` 与 Temu access_token 尚未配置**。
+Python 脚本统一用项目 `.venv/bin/python`（系统 python3 是 Homebrew 3.15，PEP 668
+禁装包）。要点：
 
 - **写操作（发品/改价/库存/订单/发货）优先用 Temu 官方 API 技能**（`linkfox-temu-*`），
   浏览器点击只作 API 失败的兜底和采集用。

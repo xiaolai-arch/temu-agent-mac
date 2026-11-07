@@ -45,7 +45,9 @@ ego 浏览器（用户日常同款：登录态、ERP 插件原生保留）
 ## 环境要求
 
 - ego-browser CLI（`ego-browser skill` 可打印用法即已装）
-- Node（temu-panel）+ Python 3.10+：`pip install -r requirements.txt`
+- Node（temu-panel）+ Python 3.10+：
+  `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
+  （Homebrew Python 受 PEP 668 限制，装包必须走 venv；Python 脚本用 `.venv/bin/python` 跑）
 - 本地 Claude Code CLI（cc-switch 配置供应商）
 - LinkFox API 技能（`~/.zcode/skills/linkfox-*`）+ `LINKFOXAGENT_API_KEY`
 
