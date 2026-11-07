@@ -174,19 +174,30 @@ async function fillLogin(page, phone, password) {
  *  开关在禁用态时会用隐形遮罩拦截一切弹窗（SSO 授权卡、调价弹窗全白屏）。
  *  实测：恢复后需 reload 页面拦截才真正解除。 */
 async function restoreDialogSwitch(pg, name) {
+  // 2026-11-07 实测：①药丸贴在视口右缘，坐标点击（文字右侧 +14px）落空；
+  // ②插件注入有延迟，先等药丸出现再点（SSO 弹窗白屏的根因就是点早了点空，
+  // 「弹框已禁用」会拦住 seller-login 微前端，页面 #root 不挂载）。
+  for (let waited = 0; waited < 12000; waited += 1000) {
+    const st = await pg.evaluate(() => {
+      const leafs = [...document.querySelectorAll("*")].filter((e) =>
+        e.children.length === 0 && (e.textContent || "").includes("弹框已"));
+      return { any: leafs.length, disabled: leafs.filter((e) => (e.textContent || "").includes("弹框已禁用")).length };
+    }).catch(() => ({ any: 0, disabled: 0 }));
+    if (st.any > 0) break;
+    await sleep(1000);
+  }
   for (let round = 0; round < 3; round++) {
-    const pills = await pg.evaluate(() => {
-      const out = [];
+    const toggled = await pg.evaluate(() => {
+      let n = 0;
       for (const leaf of [...document.querySelectorAll("*")]) {
-        if (leaf.children.length === 0 && (leaf.textContent || "").includes("弹框已禁用")) {
-          const r = leaf.getBoundingClientRect();
-          if (r.width > 0) out.push([r.left + r.width + 14, r.top + r.height / 2]);
-        }
+        if (!(leaf.children.length === 0 && (leaf.textContent || "").includes("弹框已禁用"))) continue;
+        const sw = leaf.closest(".yd-switch") || leaf.parentElement?.closest(".yd-switch");
+        const core = sw?.querySelector(".yd-switch__core");
+        if (core && typeof core.click === "function") { core.click(); n++; }
       }
-      return out;
-    }).catch(() => []);
-    if (!pills.length) return true;
-    for (const pos of pills) await pg.mouse.click(pos[0], pos[1], { label: `${name}恢复弹框开关` }).catch(() => {});
+      return n;
+    }).catch(() => 0);
+    if (!toggled) break;
     await sleep(1500);
   }
   const left = await pg.evaluate(() =>
@@ -252,6 +263,33 @@ async function erpLogout(page) {
   return done;
 }
 
+/** 勾选登录页协议（我已阅读并同意《账号使用须知》《隐私政策》）。
+ *  2026-11-07 实测：beast-core 复选框 = label 包隐藏 input + .CBX_square 视觉方块；
+ *  页面默认不勾，不勾点「登录」无反应 → failpage。真实鼠标点方块后回读 checked。 */
+async function tickLoginAgreement(page) {
+  const pos = await page.evaluate(() => {
+    for (const lb of [...document.querySelectorAll("label[data-testid='beast-core-checkbox'], label[class*='CBX_checkbox']")]) {
+      const input = lb.querySelector("input[type=checkbox]");
+      if (!input || input.checked) continue;
+      const sq = lb.querySelector("[class*='CBX_square']") || lb;
+      const r = sq.getBoundingClientRect();
+      if (r.width > 0 && r.height > 0) return [r.left + r.width / 2, r.top + r.height / 2];
+      const lr = lb.getBoundingClientRect();
+      if (lr.width > 0) return [lr.left + 8, lr.top + lr.height / 2];
+    }
+    return null; // 无未勾选协议框（已勾或页面无此控件）
+  });
+  if (!pos) return true;
+  await page.mouse.click(pos[0], pos[1], { label: "勾选登录协议" });
+  await sleep(800);
+  const ok = await page.evaluate(() => {
+    const inputs = [...document.querySelectorAll("label[data-testid='beast-core-checkbox'] input[type=checkbox], label[class*='CBX_checkbox'] input[type=checkbox]")];
+    return inputs.length ? inputs.every((c) => c.checked) : true;
+  });
+  if (!ok) log("⚠ 登录协议勾选未验证勾上");
+  return ok;
+}
+
 async function doLogin(page, phone, password) {
   await page.goto(LOGIN_URL, { timeout: 60000 });
   await page.waitForLoadState("load").catch(() => {});
@@ -266,6 +304,7 @@ async function doLogin(page, phone, password) {
     await sleep(4000);
   }
   if (!(await ensurePhonePwdMode(page))) return "failpage";
+  await tickLoginAgreement(page);
 
   const st = await fillLogin(page, phone, password);
   if (st.u !== phone.length || st.p !== password.length) {
@@ -334,24 +373,29 @@ async function handleAuthCard(hostPage, label) {
   const hasBtn = text.includes("确认授权并前往");
   if (!hasPolicy || !hasBtn) return null;
   log(`→ ${label}：勾选授权协议`);
-  // 勾选框是隐藏原生 input（可视方块是父层 wrapper）——点 wrapper 中心并验证勾选态
+  // 勾选框：只认 beast-core 复选框——页面第一个 input[type=checkbox] 是插件
+  // 「弹框已禁用」开关（checked=true 恰好等于禁用态），按序取必翻车（2026-11-07 实测）
   const cbBox = await hostPage.evaluate(() => {
-    const cbs = [...document.querySelectorAll("input[type=checkbox], [role=checkbox]")];
-    for (const cb of cbs) {
-      const r0 = cb.getBoundingClientRect();
-      const box = (r0.width > 4 && r0.height > 4) ? r0 : cb.parentElement.getBoundingClientRect();
-      if (box.width > 4 && box.height > 4) return { x: box.left + box.width / 2, y: box.top + box.height / 2 };
+    for (const label of document.querySelectorAll("label[data-testid='beast-core-checkbox'], label[class*='CBX_checkbox']")) {
+      const input = label.querySelector("input[type=checkbox]");
+      if (!input) continue;
+      if (input.checked) return { checked: true };
+      const sq = label.querySelector("[class*='CBX_square']") || label;
+      const r = sq.getBoundingClientRect();
+      if (r.width > 0) return { checked: false, x: r.left + r.width / 2, y: r.top + r.height / 2 };
+      const lr = label.getBoundingClientRect();
+      return { checked: false, x: lr.left + 8, y: lr.top + lr.height / 2 };
     }
     return null;
   });
-  let checkedOk = false;
-  if (cbBox) {
+  let checkedOk = !cbBox || cbBox.checked === true;
+  if (cbBox && !cbBox.checked) {
     for (let a = 0; a < 2 && !checkedOk; a++) {
       await hostPage.mouse.click(cbBox.x, cbBox.y, { label: "勾选授权协议" });
       await sleep(900);
       checkedOk = await hostPage.evaluate(() =>
-        [...document.querySelectorAll("input[type=checkbox], [role=checkbox]")]
-          .some((cb) => cb.checked === true || cb.getAttribute("aria-checked") === "true"));
+        [...document.querySelectorAll("label[data-testid='beast-core-checkbox'] input, label[class*='CBX_checkbox'] input")]
+          .every((c) => c.checked));
     }
   }
   if (!checkedOk) {
@@ -365,12 +409,13 @@ async function handleAuthCard(hostPage, label) {
   for (let a = 0; a < 3 && !confirmed; a++) {
     const pos = await hostPage.evaluate(() => {
       const norm = (s) => (s || "").replace(/\s+/g, "");
-      const el = [...document.querySelectorAll("button, [role=button], a, div, span")].find((e) =>
+      const b = [...document.querySelectorAll("button")].find((x) => norm(x.textContent) === "确认授权并前往");
+      const el = b || [...document.querySelectorAll("[role=button], a, div, span")].find((e) =>
         e.children.length === 0 && norm(e.textContent) === "确认授权并前往" &&
         e.getBoundingClientRect().width > 0);
       if (!el) return null;
       const r = el.getBoundingClientRect();
-      return [r.left + r.width / 2, r.top + r.height / 2];
+      return r.width > 0 ? [r.left + r.width / 2, r.top + r.height / 2] : null;
     });
     if (!pos) { await sleep(1500); continue; }
     await hostPage.mouse.click(pos[0], pos[1], { label: "确认授权并前往" });
@@ -427,9 +472,9 @@ async function passAuthGate(task, page) {
     await restoreDialogSwitch(popup, "弹窗");
     await popup.reload({ timeout: 30000 }).catch(() => {});
     await sleep(6000);
-    // 等授权卡渲染
+    // 等授权卡渲染（恢复弹框开关后重载，插件注入+微前端挂载约需 5-15s）
     let ready = false;
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 12; i++) {
       ready = await popup.evaluate(() =>
         [...document.querySelectorAll("*")].some((e) =>
           (e.textContent || "").replace(/\s+/g, "") === "确认授权并前往" && e.getBoundingClientRect().width > 0)).catch(() => false);
@@ -437,25 +482,34 @@ async function passAuthGate(task, page) {
       await sleep(1800);
     }
     if (!ready) { log(`  第${attempt}次授权卡未渲染`); await popup.close().catch(() => {}); continue; }
-    // 勾协议（可视 wrapper 真实点击）
+    // 勾协议：只认 beast-core 复选框——页面第一个 input[type=checkbox] 是插件
+    // 「弹框已禁用」开关，按序取会误勾插件开关（2026-11-07 实测翻车点）
     const cbPos = await popup.evaluate(() => {
-      const cb = document.querySelector("input[type=checkbox]");
-      if (!cb) return null;
-      const r0 = cb.getBoundingClientRect();
-      const box = r0.width > 4 ? r0 : cb.parentElement.getBoundingClientRect();
-      return { checked: cb.checked, x: box.left + box.width / 2, y: box.top + box.height / 2 };
+      for (const label of document.querySelectorAll("label[data-testid='beast-core-checkbox'], label[class*='CBX_checkbox']")) {
+        const input = label.querySelector("input[type=checkbox]");
+        if (!input) continue;
+        if (input.checked) return { checked: true };
+        const sq = label.querySelector("[class*='CBX_square']") || label;
+        const r = sq.getBoundingClientRect();
+        if (r.width > 0) return { checked: false, x: r.left + r.width / 2, y: r.top + r.height / 2 };
+        const lr = label.getBoundingClientRect();
+        return { checked: false, x: lr.left + 8, y: lr.top + lr.height / 2 };
+      }
+      return null;
     });
     if (cbPos && !cbPos.checked) {
       await popup.mouse.click(cbPos.x, cbPos.y, { label: "勾选授权协议" });
       await sleep(1000);
     }
-    // 确认授权并前往
+    // 确认授权并前往：优先 button 本体（叶子 span 隐藏时 rect=0×0 点不中）
     const pos = await popup.evaluate(() => {
-      const el = [...document.querySelectorAll("button, div, span")].find((e) =>
+      const b = [...document.querySelectorAll("button")].find((x) =>
+        (x.textContent || "").replace(/\s+/g, "") === "确认授权并前往");
+      const el = b || [...document.querySelectorAll("[role=button], div, span")].find((e) =>
         e.children.length === 0 && (e.textContent || "").replace(/\s+/g, "") === "确认授权并前往");
       if (!el) return null;
       const r = el.getBoundingClientRect();
-      return [r.left + r.width / 2, r.top + r.height / 2];
+      return r.width > 0 ? [r.left + r.width / 2, r.top + r.height / 2] : null;
     });
     if (!pos) { await popup.close().catch(() => {}); continue; }
     await popup.mouse.click(pos[0], pos[1], { label: "确认授权并前往" });

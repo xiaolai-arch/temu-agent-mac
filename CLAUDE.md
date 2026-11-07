@@ -73,6 +73,9 @@ python3 modules/grind/grind-batch.py <工单.csv> [--limit N]   # 批量调价�
 | `<div> intercepts pointer events` | 插件浮层遮挡——clickButton 会自动隐藏 fixed 浮层并重试 |
 | 下载没触发 | 弹窗确认按钮是否真点上了（导出+取消 同排兄弟模式）；生成大文件要等几分钟 |
 | 登录态过期 | 跑 `run switch-store <store>` 恢复；或请用户人工登录 |
+| 登录页点「登录」无反应 | 协议勾选框默认不勾——点 `label[data-testid=beast-core-checkbox]` 的 `.CBX_square`（2026-11-07） |
+| SSO 授权弹窗白屏 | 佳同「弹框已禁用」拦停 seller-login 微前端——等药丸注入后 DOM click `.yd-switch__core` 恢复 + reload（2026-11-07） |
+| 授权卡勾选/确认无反应 | 只认 beast-core 复选框（第一个 checkbox 是插件开关）；确认点 button 本体 |
 | 快照里找不到某文本 | `snapshot({scope:"full_page"})`；仍没有则滚动后再截 |
 
 ## 任务（skills / 模块）
