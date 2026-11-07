@@ -1,5 +1,6 @@
 # 凭据（红线：绝不提交）
 local.config.json
+claude-home/settings.json
 
 # 运行产物
 logs/

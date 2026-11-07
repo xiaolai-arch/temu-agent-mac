@@ -91,6 +91,22 @@ function readJson(file) {
   }
 }
 
+// temu-agent 专属 claude 配置：claude-home/settings.json 存在且 token 非空时，
+// 用 CLAUDE_CONFIG_DIR 隔离供应商（见 claude-home/README.md）；否则沿用全局 ~/.claude。
+function applyClaudeHome(env) {
+  try {
+    const home = path.join(TEMU_DIR, "claude-home");
+    const settings = JSON.parse(fs.readFileSync(path.join(home, "settings.json"), "utf-8"));
+    const token = settings?.env?.ANTHROPIC_AUTH_TOKEN;
+    if (typeof token === "string" && token.trim() && !token.includes("粘贴")) {
+      env.CLAUDE_CONFIG_DIR = home;
+    }
+  } catch {
+    // 未配置 → 沿用全局配置
+  }
+  return env;
+}
+
 function startTask(task) {
   if (state.running) return { ok: false, error: "已有任务在运行" };
   const def = TASKS[task];
@@ -104,7 +120,7 @@ function startTask(task) {
   state.lines = [];
   push(`▶ 启动任务 ${def.label} @ ${new Date().toLocaleString()}`);
 
-  const env = { ...process.env };
+  const env = applyClaudeHome({ ...process.env });
   let cmd;
   let cmdArgs;
   if (process.platform === "win32") {

@@ -1,0 +1,8 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "在这里粘贴你的 API key",
+    "ANTHROPIC_MODEL": "glm-5.3",
+    "ANTHROPIC_SMALL_FAST_MODEL": "glm-5.3-flash"
+  }
+}
