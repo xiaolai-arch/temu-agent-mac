@@ -12,5 +12,6 @@
 > 选品数据 → `modules/xuanpin/data/`；扫描脚本 → `modules/collect/ali-scan/`。
 
 选品结论示例：`reports/2026-10-24-选品-定制餐巾-市场分析.md`（数据在
-`modules/xuanpin/data/xuanpin-data-2026-10-24/`）；店群接管全案：
-`reports/2026-10-22-店群AI接管工作流设计.md`。
+`modules/xuanpin/data/xuanpin-data-2026-10-24/`）；LinkFox 技能与店群接管方案见
+`linkfox/linkfox技能全量盘点.md`（原《2026-10-22-店群AI接管工作流设计》报告
+未随迁移入库，需要时可在旧 Windows 仓库找回）。

@@ -54,7 +54,8 @@ const TASKS = {
   },
   "expect-region": {
     label: "期望到货区域→义乌",
-    desc: "改数据 · 分批提交 · 幂等收敛",
+    desc: "改数据 · 待 ego 化移植，卡片暂下线",
+    enabled: false, // skill 为 Windows/driver 时代版本，移植完成前下线（2026-11-07 收口）
     warn: "改数据任务：把当前店铺全部 JIT/定制品的期望到货区域设为义乌（已是义乌的重复设置无副作用）。分批(每页500)提交，全程留截图与报告；遇验证码立即停手。",
     prompt: "按照 .claude/skills/temu-expect-region/SKILL.md 定义的流程，把当前登录店铺的全部 JIT/定制品期望到货区域设为义乌（点击工作台卡片即视为执行授权）。先截图确认账号名写进报告，再分批全选→义乌→确认，最后按 skill 第5步三个筛选验证收尾并写报告。",
   },
@@ -475,7 +476,7 @@ var AVA = ["a1", "a2", "a3"];
     var st = await (await fetch("/status")).json();
     (st.tasks || []).forEach(function (t, i) {
       taskMap[t.id] = t.label;
-      grid.insertBefore(card(t.id, t.label, t.desc || "只读体检 · 不点同步按钮", true, AVA[i % 3], false, t.warn), grid.firstChild);
+      grid.insertBefore(card(t.id, t.label, t.desc || "只读体检 · 不点同步按钮", t.enabled !== false, AVA[i % 3], false, t.warn), grid.firstChild);
     });
   } catch (e) {}
   PLACEHOLDERS.forEach(function (p) { grid.appendChild(card(null, p[1], "流程待发现会话", false, "", true)); });
@@ -506,7 +507,7 @@ const server = http.createServer((req, res) => {
       finishedAt: state.finishedAt,
       exitCode: state.exitCode,
       lines: state.lines.length,
-      tasks: Object.entries(TASKS).map(([id, t]) => ({ id, label: t.label, desc: t.desc, warn: t.warn })),
+      tasks: Object.entries(TASKS).map(([id, t]) => ({ id, label: t.label, desc: t.desc, warn: t.warn, enabled: t.enabled !== false })),
       lastStatus: readJson(STATUS_FILE),
     });
   }
