@@ -11,6 +11,12 @@ reports/
 modules/collect/data/images/
 modules/collect/data/images-consumer/
 
+# 采集数据产物（换机重采，不入库）
+modules/collect/data/*.db
+modules/collect/data/*.db-*
+modules/collect/data/*.jsonl
+modules/collect/data/*.xlsx
+
 # 生图/上新产物（体积大，不入库）
 modules/image/data/
 modules/listing/data/
