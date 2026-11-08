@@ -9,12 +9,13 @@ Edge + UIA/OCR）已于 2026-10-24 删除（git 提交 a3ea58d 留有全部历�
 
 - `modules/`：**业务模块层（现役）**——每模块自带脚本 + data/ + README，总览见 **modules/README.md**
   - `sync/` 同步体检 · `collect/` 采集（商品导出+速卖通扫描）· `xuanpin/` 选品 ·
-    `grind/` 调价 · `delist/` 下架 · `ops/` 运营分析（工单生成）· `store/` 店铺管理（切店）
+    `grind/` 调价 · `delist/` 下架 · `ops/` 运营分析（工单生成）· `store/` 店铺管理（切店）·
+    `image/` 生图裂变 · `listing/` 上新（Agent 实时接管，helpers + skill）
 - `lib/common.mjs`：跨模块共享库（TaskSpace 引导、报告落盘、点击清障、弹窗关闭）
 - `run`：统一任务启动器（task = `modules/<module>/<task>.mjs`）
 - `research/`：报告与知识——reports/（含 **HANDOFF-调价下架任务交接.md**）、linkfox/
 - `plugin/temu-panel/`：工作台面板（Node，跨平台）
-- `.claude/skills/`：temu-sync-check / temu-store-switch / temu-expect-region
+- `.claude/skills/`：temu-sync-check / temu-store-switch / temu-expect-region / temu-listing
 - `discoveries/`：交互发现笔记——**ego-browser 实测坑见 2026-10-24-ego-browser-验证.md**
   （笔记内 `ego/…` 为历史路径，对应现在的 `modules/…` + `lib/…` + 根级 `run`）
 - `docs/`：phase0 地基验证（历史档案）+ Mac 迁移指南
@@ -82,11 +83,12 @@ python3 modules/grind/grind-batch.py <工单.csv> [--limit N]   # 批量调价�
 
 - `temu-sync-check`：每日同步体检（只读，脚本驱动 → modules/sync/）
 - `temu-store-switch`：切店（脚本驱动 → modules/store/，agent 解读结果）
+- `temu-listing`：上新（**Agent 实时接管**，推理字段自己填自己验；原子操作 → modules/listing/helpers.mjs）
 - `temu-expect-region`：期望到货区域批量设为义乌（改数据；需 ego 化移植——坐标段失效，流程纪律有效）
 - 调价：modules/grind/（grind-one.mjs + grind-batch.py，改数据，用户确认后跑，导出复核收尾）
 - 下架：modules/delist/（工单已备，ego 化脚本待建；流程见 HANDOFF）
 - 工单生成：python3 modules/ops/make_work_orders.py <store>（调价+下架一起出）
-- 待发现：make-links / compliance / collect-links / new-listing（见 discoveries/）
+- 待发现：make-links / compliance / collect-links（见 discoveries/）
 
 ## LinkFox API 技能（写操作优先走 API）
 

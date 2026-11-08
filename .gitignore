@@ -7,6 +7,14 @@ logs/
 screenshots/
 reports/
 
+# 采集图片缓存（体积大，可由 JSONL 重新下载）
+modules/collect/data/images/
+modules/collect/data/images-consumer/
+
+# 生图/上新产物（体积大，不入库）
+modules/image/data/
+modules/listing/data/
+
 # Python
 __pycache__/
 *.pyc

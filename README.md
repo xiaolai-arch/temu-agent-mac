@@ -16,7 +16,8 @@ temu-agent/
 │                  ├── grind/    调价（grind-one.mjs + grind-batch.py + 工单/建议价）
 │                  ├── delist/   下架（工单与日志，脚本待建）
 │                  ├── ops/      运营分析（analyze_stores.py + make_work_orders.py）
-│                  └── store/    店铺管理（switch-store.mjs 切店）
+│                  ├── store/    店铺管理（switch-store.mjs 切店）
+│                  └── image/    生图（fission.mjs 主图裂变，Seedream 图生图，零后台交互）
 ├── lib/           跨模块共享库 common.mjs；run = 统一任务启动器
 │                  —— 总览见 modules/README.md
 ├── research/      报告与知识：reports/（含任务交接 HANDOFF）、linkfox/（技能盘点）
